@@ -1,31 +1,94 @@
 /* Style the list */
 ul.breadcrumb {
-    padding: 10px 10px;
-    list-style: none;
-    background-color: #fff;
-    font-size: 12px!important;
-  }
-  
-  /* Display list items side by side */
-  ul.breadcrumb li {
-    display: inline;
-  }
-  
-  /* Add a slash symbol (/) before/behind each list item */
-  ul.breadcrumb li+li:before {
-    padding: 8px;
-    color: #386220;
-    content: "/\00a0";
-  }
-  
-  /* Add a color to all links inside the list */
-  ul.breadcrumb li a {
-    color: #386220;
-    text-decoration: none;
-  }
-  
-  /* Add a color on mouse-over */
-  ul.breadcrumb li a:hover {
-    color: #386220;
-    text-decoration: underline;
-  }
+  padding: 10px 10px;
+  list-style: none;
+  background-color: #fff;
+  font-size: 12px!important;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #386220;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #386220;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #386220;
+  text-decoration: underline;
+}
+
+.secMenu {
+  margin: auto!important;
+}
+
+.fMenuTABLE {
+	margin: auto!important;
+}
+
+
+div#homeSNDiv div {
+  margin: auto!important;
+}
+
+#container{
+  margin: auto!important;
+}
+
+div#rgpDiv{
+  margin: auto!important;
+}
+
+.pMenuTABLE {
+  margin: auto!important;
+}
+
+#oddsMenu {
+  padding: 0px!important;
+}
+
+#topNav {
+  left: 1110px!important;
+}
+
+@media screen and (min-width: 1000px) {
+	#betslipDiv {
+		position: absolute;
+		top: 39px;
+    left:auto!important;
+		right: 660px!important;
+		z-index: 100;
+		width: 221px;
+	}
+
+	#divLogout {
+		left: 95px;
+	}
+}
+
+@media screen and (max-width: 999px) {
+	#betslipDiv {
+		position: absolute;
+		top: 39px;
+		left: 776px;
+		//right: 0px;
+		z-index: 100;
+		width: 221px;
+	}
+
+	#divLogout {
+		left: 0px;
+	}
+}
