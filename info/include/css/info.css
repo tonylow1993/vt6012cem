@@ -1,0 +1,454 @@
+@media screen {
+    #printDiv {
+        display: none;
+    }
+}
+
+@media print {
+    #printDiv {
+        display: block !important;
+        width: 770px !important;
+    }
+    #betslipDiv,
+    #divBetSlipOverlay,
+    #divStatement,
+    #divLogout,
+    #div_engine,
+    .divPop {
+        display: none !important;
+    }
+    #infoDiv>#topNav,
+    #infoDiv>.fMenuTABLE,
+    #infoDiv>.secMenu,
+    #infoDiv>#topBannerDiv,
+    #infoDiv>#homeSNDiv,
+    #thirdMenu,
+    #infoDiv .bodyMainOddsMenu,
+    #infoDiv #bottomBannerDiv,
+    #infoDiv #blockContainerHR,
+    #infoDiv #blockContainerFB,
+    #infoDiv #blockContainerM6,
+    #crazyAdvDiv,
+    #infoDiv #oddsMenu,
+    #infoDiv #rgpDiv,
+    #oMenuTABLE,
+    #infoDiv #oddsTable,
+    #infoDiv #m6UserContent {
+        display: none;
+    }
+    #infoDiv .bodyMainOddsTable {
+        display: block !important;
+        width: 635px !important;
+        background-color: #4A8CC1 !important;
+    }
+    #infoDiv .bodyMainTableRow>#divMeetingInfo {
+        display: block !important;
+        width: 635px !important;
+        max-width: 635px !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+    #infoDiv>.footballmaincontent,
+    tblPari tblHFMP,
+    div#dHeader,
+    div.oHeader .tblHeader,
+    .matchesOddsTable>.couponTable,
+    #oddAllUpCalDiv,
+    .DataCompetition_nav,
+    .space2,
+    #infoDiv #dContainer,
+    #infoDiv #searchPlanel,
+    #infoDiv #dNextContainer,
+    #infoDiv #mixAllUpList,
+    #dAllCoupons,
+    #horseTable,
+    #infoDiv .mscalHeader,
+    #infoDiv .mscalMainTable,
+    div.oHeader {
+        width: 635px !important;
+        max-width: 635px !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+    #divMeetingInfo {
+        display: block !important;
+        width: 635px !important;
+        background-color: #4A8CC1 !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+    #infoDiv .racebg {
+        display: block !important;
+        width: 625px !important;
+        background-color: #DBE8F3 !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+    #infoDiv .tdColorNum1 {
+        background-color: #4A8CC1 !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+    #infoDiv .tdColorHead {
+        background-color: #DBE8F3 !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+    #infoDiv .tableContent2Alup {
+        background-color: #EBEBEB !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+    #oddsContentMain,
+    #oddsDropDetail {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+    #infoDiv .m6-index-div,
+    #footballmaincontent #oddsTable {
+        display: block !important;
+        width: 635px !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: 100%
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#divLoading,
+#tabLoading {
+    background-image: url(/ContentServer/jcbw/images/loading.gif);
+    width: 18px;
+    height: 18px;
+}
+
+#container {
+    margin: 0px 0px 0px 6px;
+    background-color: #FFFFFF;
+    width: 764px;
+}
+
+.racingLink {
+    color: #004B96;
+    text-decoration: none;
+}
+
+.racingLink:hover {
+    text-decoration: underline;
+}
+
+.footballLink {
+    color: #4D822D;
+    text-decoration: none;
+}
+
+.footballLink:hover {
+    text-decoration: underline;
+}
+
+.marksixLink {
+    color: #CC2C2C;
+    text-decoration: none;
+}
+
+.marksixLink:hover {
+    text-decoration: underline;
+}
+
+.smartbanner {
+    background-color: #eeeeee !important;
+    left: 0;
+    top: 0;
+    width: 104%;
+    height: 70px;
+    overflow: hidden;
+    z-index: 50;
+}
+
+.smartbanner-container {
+    margin: 0 auto;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    background-color: #eeeeee !important;
+}
+
+.smartbanner-container .smartbanner-container-104 {
+    width: 104%;
+    background-color: #eeeeee !important;
+}
+
+.smartbanner-icon {
+    position: absolute;
+    left: 8px;
+    top: 12px;
+    display: block;
+    background-color: #eeeeee;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    width: 47px;
+    height: 47px;
+    background-image: url(/info/include/images/icon_aos_smart_app.png);
+}
+
+.smartbanner-en.smartbanner-vertical {
+    background-image: url(/info/include/images/aos_smart_app_en_vertical.png);
+}
+
+.smartbanner-ch.smartbanner-vertical {
+    background-image: url(/info/include/images/aos_smart_app_ch_vertical.png);
+}
+
+.smartbanner-en.smartbanner-horizontal {
+    background-image: url(/info/include/images/aos_smart_app_en_horizontal.png);
+}
+
+.smartbanner-ch.smartbanner-horizontal {
+    background-image: url(/info/include/images/aos_smart_app_ch_horizontal.png);
+}
+
+.smartbanner-info {
+    position: absolute;
+    left: 60px;
+    top: 17px;
+    width: 54%;
+    height: 38px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.smartbanner-close {
+    position: absolute;
+    right: 5px;
+    top: 3px;
+    display: block;
+    text-align: right;
+    border: 0;
+    width: 13px;
+    height: 13px;
+    z-index: 99;
+    background-image: url(/info/include/images/aos_close_btn.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.smartbanner-button {
+    position: absolute;
+    right: 5px;
+    top: 23px;
+    width: 64px;
+    height: 28px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.smartbanner-button.en {
+    background-image: url(/info/include/images/aos_smart_app_en_button.png);
+}
+
+.smartbanner-button.ch {
+    background-image: url(/info/include/images/aos_smart_app_ch_button.png);
+}
+
+.divQRPortal,
+.divQRPortal td {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#info_top_promo {
+    width: 530px;
+    height: 180px;
+    float: right;
+    padding: 0px 7px 6px 0px;
+}
+
+.msOpenBtn {
+    background: url(/marksix/info/images/btn_open.gif) no-repeat left 10px center;
+    width: 15px;
+    height: 15px;
+    padding: 10px 5px 10px 30px;
+    background-color: #F2F2F2;
+    cursor: pointer;
+    border-bottom: none;
+}
+
+.msCloseBtn {
+    background: url(/marksix/info/images/btn_close.gif) no-repeat left 10px center;
+    width: 15px;
+    height: 15px;
+    padding: 10px 5px 10px 30px;
+    background-color: #F2F2F2;
+    cursor: pointer;
+    border-bottom: none;
+}
+
+.bodyMainTable {
+    display: table;
+    background-color: #FFFFFF;
+    margin: 0px 6px 0px 0px;
+    padding: 7px 0px 10px 0px;
+    width: 764px;
+}
+
+.bodyMainTableRow {
+    display: table-row;
+}
+
+.bodyMainOddsMenu {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0px 4px 0px 0px;
+}
+
+.bodyMainOddsTable {
+    display: table-cell;
+    vertical-align: top;
+    width: 635px;
+    padding-right: 7px;
+}
+
+.fMenuTABLE {
+    display: table;
+    width: 776px;
+    padding: 11px 0px 0px 0px;
+}
+
+.fMenuTR {
+    display: table-row;
+}
+
+.fMenuRow {
+    display: table-cell;
+    vertical-align: middle;
+    width: 1px;
+}
+
+.fMenuRowLine {
+    background-image: url('/info/include/images/topmenu_line_v.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 1px;
+    height: 11px;
+}
+
+.fMenuRowLang {
+    display: table-cell;
+    width: 52px;
+    padding: 0px 0px 0px 20px;
+    vertical-align: middle;
+}
+
+.fMenuRowHome {
+    display: table-cell;
+    width: 36px;
+    padding: 0px 0px 0px 5px;
+    vertical-align: middle;
+}
+
+.topBanner {
+    display: table;
+    width: 764px;
+    background-color: #FFFFFF;
+    margin: 0px 6px 0px 6px;
+}
+
+.bottomMenu {
+    display: table;
+    width: 736px;
+    background-color: #FFFFFF;
+    margin: 0px 6px 0px 6px;
+    padding: 0px 7px 0px 7px;
+}
+
+.rgpBlock {
+    display: table;
+    width: 750px;
+    background-color: #FFFFFF;
+    margin: 3px 6px 3px 6px;
+    padding: 7px 7px 7px 7px;
+}
+
+#oddsMenu {
+    position: absolute;
+    width: 120px;
+    padding: 0px 0px 0px 7px;
+}
+
+.peNoteUpdateIcon {
+    background: url(/wcas/NotesAdmin/PENOTE/JCBW/theme_classic/written_note.png) no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 25px;
+}
+
+.peNoteAddIcon {
+    background: url(/wcas/NotesAdmin/PENOTE/JCBW/theme_classic/add_note_chnl.png) no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 25px;
+}
+
+.peNoteImportantIcon {
+    background: url(/wcas/NotesAdmin/PENOTE/JCBW/theme_classic/important_note.png) no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 25px;
+}
+
+.bsPeNoteIconAdd {
+    position: absolute;
+    top: 32px;
+    left: 135px;
+    background: url(/wcas/NotesAdmin/PENOTE/JCBW/theme_classic/add_note_chnl.png) no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 25px;
+}
+
+.bsPeNoteIconUpdate {
+    position: absolute;
+    top: 32px;
+    left: 135px;
+    background: url(/wcas/NotesAdmin/PENOTE/JCBW/theme_classic/written_note.png) no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 25px;
+}
+
+.borderLeft {
+    border-left: 1px #FFFFFF solid;
+}
+
+.peNoteUpdateIcon:hover,
+.peNoteAddIcon:hover,
+.peNoteImportantIcon:hover,
+.bsPeNoteIconAdd:hover,
+.bsPeNoteIconUpdate:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-height: 2000px) {
+    #infoDiv {
+        height: 101vh;
+    }
+}

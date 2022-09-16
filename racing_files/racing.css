@@ -1,0 +1,994 @@
+a {
+	color: #004b96;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.wpTitleBar, .cwinTitleBar {
+	
+	font-size: 11px;
+	color: #FFFFFF;
+	line-height: 15px;
+	padding: 7px 3px 7px 5px;
+	background-color: #4A8CC1;
+}
+
+.wpSubTitleBar {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	padding: 4px 3px 4px 5px;
+	background-color: #DBE8F3;
+	border-top: 1px solid #FFFFFF;
+}
+
+.subTitleBar2 {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	padding: 4px 7px 4px 10px;
+	background-color: #FFFFFF;
+	border-top: 1px solid #FFFFFF;
+}
+
+.tdColor1 {
+	
+	font-size: 11px;
+	color: #FFFFFF;
+	line-height: 15px;
+	padding: 1px 1px 1px 1px;
+	background-color: #4A8CC1;
+}
+
+.tdColor2 {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	padding: 1px 1px 1px 1px;
+	background-color: #DBE8F3;
+}
+
+#mainTable {
+	border-bottom: 3px solid #4A8CC1;
+}
+
+.toolbarTxt {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.toolbarTxt:hover,
+.toolbarTxt.hovered {
+	color: #175087;
+	text-decoration: none;
+}
+
+.pulldownTxt {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	padding: 4px 5px 4px 0px;
+	text-decoration: none;
+}
+
+.pulldownTxt:hover {
+	color: #175087;
+	text-decoration: none;
+}
+
+.leftNav,
+.leftNavCwin {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	padding: 7px 0px 7px 0px;
+	text-decoration: none;
+}
+
+.leftNavCwin {
+	padding: 3px 0px 3px 5px;
+	 !important
+}
+
+.leftNavCwinLbl {
+	padding: 3px 0px 3px 0px;
+	 !important
+}
+
+.leftNavArrow {
+	padding: 12px 4px 0px 5px;
+}
+
+.leftNav:hover,
+.cwinTdMouseOver a,
+.leftBg .cwinTdDesc a {
+	color: #083564 !important;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.leftNavOver {
+	color: #083564 !important;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.leftNavOver:hover {
+	text-decoration: none;
+}
+
+.leftBg {
+	background-color: #DBE7F3;
+}
+
+.highlight {
+	
+	font-size: 11px;
+	color: #FFFFFF;
+	line-height: 14px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.wpTdColor {
+	
+	font-size: 11px;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.tableNum {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 20px;
+	text-decoration: none;
+	padding: 1px 1px 1px 1px;
+}
+
+.tdColor {
+	
+	font-size: 10px;
+	line-height: 14px;
+	vertical-align: middle;
+}
+
+.tdColorNum1 {
+	
+	font-size: 10px;
+	color: #FFFFFF;
+	background-color: #4A8CC1;
+	line-height: 14px;
+	vertical-align: middle;
+	padding: 3px 1px 3px 1px;
+	border-bottom:1px solid #DDDCDC;
+	border-right:1px solid #DDDCDC;
+}
+
+.tdColorNum2 {
+	
+	font-size: 10px;
+	color: #333333;
+	background-color: #FFFFFF;
+	line-height: 14px;
+	vertical-align: middle;
+	padding: 3px 0px 3px 0px;
+	border-bottom:1px solid #DDDCDC;
+	border-right:1px solid #DDDCDC;
+}
+
+.tableNum1DBL {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 14px;
+	text-decoration: none;
+	padding: 1px 1px 1px 1px;
+	background-color: #FFFFFF;
+}
+
+.tableNum2DBL {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 14px;
+	text-decoration: none;
+	padding: 1px 1px 1px 1px;
+	background-color: #EBEBEB;
+}
+
+.tdColorHead {
+	
+	font-size: 11px;
+	color: #333333;
+	background-color: #DBE8F3;
+	line-height: 14px;
+	padding-left: 5px;
+	padding: 3px 1px 3px 1px;
+}
+
+.toolbarBg {
+	background-color: #B7D1E6;
+}
+
+.toolbarLine {
+	border-top: #A4C5E0 1px solid;
+	border-bottom: #A4C5E0 1px solid;
+	padding: 1px 0px 1px 0px;
+}
+
+.toolbarTxt {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.toolbarTxt:hover {
+	color: #175087;
+	text-decoration: none;
+}
+
+.toolbarTxtOn {
+	
+	font-size: 11px;
+	color: #175087;
+	font-weight: bold;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.toolbarTxtOn:hover {
+	text-decoration: none;
+}
+
+.toolbarPulldown {
+	border: #4A8CC1 2px solid;
+	padding: 8px 0px 8px 8px;
+	background-color: #E6EEF7;
+}
+
+.subTitleBar3 {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	height: 31px;
+	text-decoration: none;
+	padding: 5px 5px 5px 5px;
+	background-color: #DBE8F3;
+}
+
+.blue {
+	
+	font-size: 11px;
+	color: #175087;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.blue2 {
+	
+	font-size: 11px;
+	color: #2B86B5;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.blueBg {
+	
+	font-size: 11px;
+	color: #333333;
+	background-color: #DBE8F3;
+	line-height: 14px;
+	padding: 3px 5px 3px 5px;
+	border-bottom: 1px solid #F8F8F8;
+}
+
+.grayBg {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 14px;
+	padding: 3px 5px 3px 5px;
+	border-bottom: 1px solid #F8F8F8;
+}
+
+.divBtn {
+	width: 100%;
+	text-align: center;
+	display: block;
+	cursor: pointer;
+}
+
+.tableContentHeadAlup, .tableContentHeadAlupCwin {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	text-decoration: none;
+	padding: 5px 0px 5px 0px;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #CCCCCC;
+	border-top: 1px solid #CCCCCC;
+	white-space: nowrap;
+}
+
+.iwnWinTable .tableContentHeadAlup {
+	border-top: 0;
+}
+
+.tableContent1Alup {
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	text-decoration: none;
+	padding: 1px 0px 1px 0px;
+	background-color: #FFFFFF;
+}
+
+.tableContent2Alup {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	text-decoration: none;
+	padding: 1px 0px 1px 0px;
+	background-color: #EBEBEB;
+}
+
+.hkscsfontfamily {
+	
+}
+
+.threeXtwoDiv {
+	padding: 1px 1px 1px 1px;
+	vertical-align: top;
+	width: 210px
+}
+
+.twoXtwoDiv {
+	padding: 1px 1px 1px 1px;
+	vertical-align: top;
+	width: 317px
+}
+
+.notDefinedTxt {
+	
+	font-size: 12px;
+	color: #FF6600;
+	text-decoration: none;
+	text-align: center;
+}
+
+.paginationCurrent {
+	
+	font-size: 11px;
+	color: #333333;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.pagination {
+	
+	font-size: 11px;
+	color: #004B96;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.nopadding {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.cwinDiv {
+	margin-bottom: 3px;
+}
+
+.cwinTable td {
+	/*border: 0px;*/
+	padding: 3px 3px 3px 2px;
+	
+}
+
+.cwinNameTd {
+	border-right: #FFFFFF 1px solid;
+	/*max-width: 95px;*/
+	background-clip: padding-box;
+}
+
+.cwinOddTd {
+	border-left: #FFFFFF 1px solid;
+	background-clip: padding-box;
+}
+
+.cwinOddInfo {
+	/*padding-left: 10px;*/
+	padding-top: 5px;
+	text-align: left;
+}
+
+.cwinOddTd input[type="checkbox"] {
+	margin: 0 3px 0 4px;
+}
+
+.cwinStarterTable {
+	border-spacing: 0px;
+}
+
+.cwinStarterTableTd {
+	padding: 0px;
+	vertical-align: top;
+	min-width: 50px;
+	max-width: 220px;
+	/*242*/
+}
+
+.cwinInfo {
+	vertical-align: bottom;
+}
+
+.cwinTable .cwinGroupNo {
+	max-width: 31px;
+	/*35*/
+	width: 17px;
+	padding: 5px 0px 3px 2px;
+	vertical-align: top;
+}
+
+.groupNameSpan {
+	padding: 0 2px 3px 0;
+	min-width: 40px;
+	/*
+	max-width: 84px;
+	width: 84px;
+	word-wrap: break-word;
+*/
+	white-space: pre-wrap;
+	display: block;
+}
+
+.cwinOutsiderNoLbl {
+	width: 80px;
+}
+
+.cwinStarter {
+	min-width: 24px;
+	/*22*/
+	/*width: 22px;*/
+	max-width: 72px;
+	/*44*/
+	text-align: center;
+	vertical-align: bottom;
+	padding: 5px 0px 5px 0px;
+	*zoom: 1;
+	*display: inline;
+	min-height: 15px;
+}
+
+.cwinStarterComp1 {
+	width: 24px;
+	/*22*/
+	max-width: 24px;
+	min-width: 24px;
+	text-align: center;
+	vertical-align: bottom;
+	display: inline-block;
+	float: left;
+}
+
+.cwinStarterComp2 {
+	width: 48px;
+	/*22*/
+	max-width: 48px;
+	min-width: 48px;
+	text-align: center;
+	vertical-align: bottom;
+	display: inline-block;
+	float: left;
+}
+
+.cwinStarterComp3 {
+	width: 72px;
+	/*22*/
+	max-width: 72px;
+	min-width: 72px;
+	text-align: center;
+	vertical-align: bottom;
+	display: inline-block;
+	float: left;
+}
+
+.tableContent3 {
+	background-color: #F7F7F7;
+	height: 25px;
+}
+
+.tableContent4 {
+	background-color: #E5E5E5;
+	/*#C6C6C6;*/
+	height: 25px;
+}
+
+.cwinOutsiderTable {
+	background-color: #E7E7CE;
+	border: 0px;
+	
+}
+
+.cwinOutsiderTable div {
+	/* background-color: #E7E7CE; */
+}
+
+.cwinOutsiderInfo {
+	padding: 5px 3px 3px 4px;
+	vertical-align: bottom;
+}
+
+.cwinOutsiderList {
+	padding: 0;
+	font-size: 0;
+}
+
+.cwinOutsiderList div {
+	font-size: 11px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.greyBg {
+	background-Color: #848484;
+	color: #C6C6C6;
+}
+
+.starterDetail td {
+	padding: 5px 2px;
+	vertical-align: top;
+}
+
+/* cwin all race all up button*/
+.allupBtn {
+	opacity: 0;
+	z-index: -1 !important;
+	height: 0px !important;
+}
+
+.allupBtnLbl {
+	position: relative;
+	z-index: 499 !important;
+	display: inline-block;
+	display: inline-block;
+	padding: 4px 12px;
+	margin-right: 5px;
+	color: #333;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-color: #f5f5f5;
+	background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fff), to(#e6e6e6));
+	background-image: -webkit-linear-gradient(top, #fff, #e6e6e6);
+	background-image: -o-linear-gradient(top, #fff, #e6e6e6);
+	background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+	background-repeat: repeat-x;
+	border: 1px solid #ccc;
+	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	border-bottom-color: #b3b3b3;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.allupBtnLblChecked {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+	background-color: #e0e0e0;
+}
+
+.allupBtnLblDisabled {
+	background-image: none;
+	color: #DDDDDD;
+	background-color: #EEEEEE;
+	cursor: default;
+}
+
+/* display in menu of cwa */
+.cwinTdBullet {
+	padding-left: 5px;
+	width: 10%;
+	line-height: 10px;
+}
+
+.cwinTdDesc {
+	width: 90%;
+	cursor: pointer;
+	line-height: 20px;
+}
+
+.cwinTdDesc a {
+	color: #000000;
+}
+
+.cwinTdDesc a:hover,
+.cwinLiMouseOver {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.cwinXPOOLOddInfo {
+	padding-top: 2px;
+	text-align: center;
+}
+
+.c_info_cell {
+	padding-top: 4px;
+}
+
+.cwinHeader {
+	border-right: #FFFFFF 1px solid;
+}
+
+#cwaSubMenu,
+#cwbcSubMenu {
+	padding-left: 7px;
+}
+
+#cwaSubMenu a,
+#cwbcSubMenu a {
+	color: #000000 !important;
+}
+
+.cwinExpandBg {
+	background-Color: #EBEBEB;
+}
+
+.groupNameHolder {
+	display: inline-block;
+	*display: inline;
+	zoom: 1;
+}
+
+.leftNavSection {
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	padding: 7px 0px 7px 0px;
+	text-decoration: none;
+}
+
+.leftNavSection:hover {
+	text-decoration: none;
+}
+
+.allCwinOddsTd {
+	text-align: left;
+	width: 55px;
+}
+
+#pageNameHolder {
+	/*width: 100px;*/
+	max-width: 100px;
+	white-space: normal;
+}
+
+.toggleResult {
+	cursor: pointer;
+}
+
+.divWinHorseName2 {
+	word-wrap: break-word;
+}
+
+.splitCellHolder {
+	position: relative;
+	margin: -3px -2px -3px -7px;
+	padding: 0 1px 0 0;
+	width: 73px;
+	height: 54px;
+	border-right: 1px solid #dddcdc;
+}
+
+.rightUp {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 73px 54px 0;
+	border-color: transparent #4A8CC1 transparent transparent;
+}
+
+.rightUpText {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	text-align: right;
+	width: 100%;
+	color: #FFFFFF;
+	padding: 2px 1px 0 0;
+	width: 45px;
+}
+.fcttdColorHead{
+	
+    font-size: 11px;
+    color: #333333;
+    background-color: #DBE8F3;
+    line-height: 14px;
+	border: 1px solid #dddcdc;
+}
+.fctHeaderUpText {
+    background-color: #4A8CC1;
+    width: 58px;
+    line-height: 16px;
+    color: #FFFFFF;
+    font-size: 11px;
+	padding-left: 1px;
+}
+.fctHeaderDownText {
+	line-height: 14px;
+    width: 58px;
+	padding-left: 1px;
+}
+
+.numOrdinal{
+	font-size: x-small;
+    vertical-align: super;
+}
+
+.leftBottomText {
+	position: absolute;
+	bottom: 0px;
+	padding: 0 0 2px 3px;
+	width: 45px;
+}
+
+.secMenu {
+	display: table;
+	width: 750px;
+	background-color: #FFFFFF;
+	margin: 0px 6px 0px 6px;
+	padding: 7px 7px 7px 7px;
+}
+
+.secMenuTR {
+	display: table-row;
+}
+
+.secTable {
+	display: table;
+	width: 100%;
+}
+
+.secMenuLine {
+	background-color: #4A8CC1;
+	display: block;
+	width: 100%;
+	height: 3px;
+}
+
+#secMenuHR {
+	background-image: url('/info/include/images/en/btn_racing_on.gif');
+	background-repeat: no-repeat;
+	display: table-cell;
+	width: 52px;
+	height: 40px;
+	padding-left: 1px;
+}
+
+#secMenuHR:hover {
+	cursor: pointer;
+}
+
+#secMenuFB {
+	background-image: url('/info/include/images/en/btn_football_off.gif');
+	background-repeat: no-repeat;
+	display: table-cell;
+	width: 52px;
+	height: 40px;
+	padding-left: 1px;
+}
+
+#secMenuFB:hover {
+	background-image: url('/info/include/images/en/btn_football_over.gif');
+	cursor: pointer;
+}
+
+#secMenuM6 {
+	background-image: url('/info/include/images/en/btn_marksix_off.gif');
+	background-repeat: no-repeat;
+	display: table-cell;
+	width: 52px;
+	height: 40px;
+	padding-left: 1px;
+}
+
+#secMenuM6:hover {
+	background-image: url('/info/include/images/en/btn_marksix_over.gif');
+	cursor: pointer;
+}
+
+#secMenu3in1 {
+	background-image: url('/info/include/images/en/btn_ewin_off.gif');
+	background-repeat: no-repeat;
+	display: table-cell;
+	width: 53px;
+	height: 40px;
+	padding-left: 1px;
+}
+
+#secMenu3in1:hover {
+	background-image: url('/info/include/images/en/btn_ewin_over.gif');
+	cursor: pointer;
+}
+
+.downloadPDFSingleButton {
+	background: url('/info/include/images/en/print_btn_this_en.gif') no-repeat;
+	width: 197px;
+	height: 19px;
+	padding: 0px 5px 0px 0px;
+	margin: 5px 0px 0px 0px;
+	display: inline-block;
+}
+
+.downloadPDFAllButton {
+	background: url('/info/include/images/en/print_btn_all_en.gif') no-repeat;
+	width: 171px;
+	height: 19px;
+	margin: 5px 0px 0px 0px;
+	display: inline-block;
+}
+
+.downloadPDFSingleButton:hover,
+.downloadPDFAllButton:hover {
+	cursor: pointer;
+}
+
+#divMeetingInfo {
+	display: block;
+	background-color: #4A8CC1;
+	border-bottom: 1px solid #FFFFFF;
+	
+	font-size: 11px;
+	line-height: 15px;
+	color: #FFFFFF;
+	white-space: nowrap;
+}
+
+.mtgInfoPageName {
+	font-weight: bold;
+	vertical-align: middle;
+	padding: 7px 5px 8px 0px;
+	display: inline-block;
+}
+
+.mtgInfoWPQ .mtgInfoPageName {
+	font-weight: bold;
+	vertical-align: middle;
+	padding: 2px 5px 2px 0px;
+	display: inline-block;
+}
+
+.mtgInfoRefreshTime {
+	vertical-align: middle;
+	padding: 7px 5px 8px 0px;
+	display: inline-block;
+	white-space: normal;
+}
+
+.mtgInfoWP .mtgInfoRefreshTime,
+.mtgInfoWPQ .mtgInfoRefreshTime,
+.mtgInfoFCT .mtgInfoRefreshTime {
+	vertical-align: middle;
+	display: inline-block;
+	white-space: normal;
+	max-width: 55px;
+	padding: 2px 5px 2px 0px;
+}
+
+.mtgInfoRefreshTxt {
+	vertical-align: middle;
+	padding: 7px 0px 8px 5px;
+	display: inline-block;
+}
+
+.mtgInfoWP .mtgInfoRefreshTxt,
+.mtgInfoWPQ .mtgInfoRefreshTxt,
+.mtgInfoFCT .mtgInfoRefreshTxt {
+	vertical-align: middle;
+	display: inline-block;
+	white-space: normal;
+	max-width: 40px;
+	padding: 2px 5px 2px 0px;
+}
+
+.mtgInfoDV {
+	vertical-align: middle;
+	padding: 2px 5px 2px 0px;
+	display: inline-block;
+	white-space: normal;
+}
+
+.mtgInfoCWA .mtgInfoDV {
+	max-width: 130px;
+}
+
+.oddsEnquiryDimButton,
+.oddsEnquiryButton:hover {
+	background: url(/info/include/images/en/btn_oddsenq_on.gif) no-repeat;
+	width: 108px;
+	height: 21px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.oddsEnquiryButton {
+	background: url(/info/include/images/en/btn_oddsenq.gif) no-repeat;
+	width: 108px;
+	height: 21px;
+	vertical-align: middle;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.raceEstDivBar {
+	background: url(/racing/info/images/arrow_l.gif) left 5px top 10px no-repeat, url(/racing/info/images/arrow_r.gif) right 5px top 10px no-repeat;
+	
+	font-size: 11px;
+	color: #333333;
+	line-height: 15px;
+	height: 24px;
+	padding: 4px 7px 4px 40px;
+	background-color: #FCF3D9;
+	white-space: nowrap;
+}
+
+#info_top_block {
+	width: 210px;
+	height: 179px;
+	border-bottom: #4A8CC1 1px solid;
+	float: left;
+	margin: 0px 8px 0px 8px;
+}
+
+.info_top_frame {
+	border: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.rsHorseMinWidth {
+	max-width: 107px;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.rsHorseMaxWidth {
+	max-width: 107px;
+    word-break: break-word;
+    word-wrap: break-word;
+}

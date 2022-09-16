@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nav>
+	<style>
+		<menuBox left="213" height="140" width="316"></menuBox>
+	</style>
+    <section>
+        <sectionName>Online Channels</sectionName>
+        <secionId>onlinebet</secionId>
+        <sectionLink>#</sectionLink>
+        <sectionTarget>_self</sectionTarget>
+        <sectionPopup>0</sectionPopup>  
+ 
+	<subSection>
+            <name>Smart Platform</name>
+            <id>smartplatform</id>
+            <link>//m.hkjc.com/en/index.html</link>
+            <popup>1</popup>
+            <target>menu_staticSite</target>
+            <menuTxt></menuTxt>
+        </subSection>
+	<subSection>
+            <name>Apply for Betting Account</name>
+            <id>applybet</id>
+            <link>//special.hkjc.com/infomenu/en/register/applybet.asp</link>
+            <popup>1</popup>
+            <target>menu_staticSite</target>
+            <menuTxt></menuTxt>
+        </subSection>
+	<subSection>
+            <name>Funds Transfer</name>
+            <id>fundstransfer</id>
+            <link>//special.hkjc.com/infomenu/en/info/deposit.asp</link>
+            <popup>1</popup>
+            <target>menu_newWindow</target>
+            <menuTxt></menuTxt>
+        </subSection>
+
+ 
+    </section>
+	
+    <section>
+        <sectionName>Retail &amp; Telebet</sectionName>
+        <secionId>channel</secionId>
+        <sectionLink>#</sectionLink>
+        <sectionTarget>_self</sectionTarget>
+        <sectionPopup>0</sectionPopup>
+         <subSection>
+            <name>Off-course Betting Branches</name>
+            <id>ocb</id>
+            <link>//special.hkjc.com/infomenu/en/channel/ocb/index.asp</link>
+            <popup>1</popup>
+            <target>menu_staticSite</target>
+            <menuTxt>Spacious and modern, Off-course Betting Branches offer state-of-the-art facilities and specialized corners for Horse Racing and Football Betting.</menuTxt>
+        </subSection>
+ 	<subSection>
+            <name>Telebet</name>
+            <id>telebet</id>
+            <link>//special.hkjc.com/infomenu/en/channel/telebet/index.asp</link>
+            <popup>1</popup>
+            <target>menu_staticSite</target>
+			<menuTxt>Our professional service ambassadors help you to bet, transfer funds and make enquiries with confidence!</menuTxt>
+        </subSection>
+        <subSection>
+            <name>Racecourse</name>
+            <id>racecourse</id>
+            <link>//entertainment.hkjc.com/entertainment/english/go-racing/sha-tin-racecourse.aspx</link>
+            <popup>1</popup>
+            <target>menu_staticSite</target>
+            <menuTxt>Sha Tin boasts the world's most sophisticated racing facilities and nothing beats the excitement of night racing amidst the stars and skyscrapers at Happy Valley.</menuTxt>
+        </subSection>
+    </section>
+	
+    <section>
+        <sectionName>Betting Info</sectionName>
+        <secionId>info</secionId>
+        <sectionLink>#</sectionLink>
+        <sectionTarget>_self</sectionTarget>
+        <sectionPopup>0</sectionPopup>
+        <subSection>
+            <name>Horse Racing</name>
+            <id>racing</id>
+            <link>//special.hkjc.com/racing/info/en/betting/guide_qualifications_pari.asp</link>
+            <popup>2</popup>
+            <target>menu_newWindow</target>
+            <menuTxt></menuTxt>
+        </subSection>
+        <subSection>
+            <name>HKJC Football</name>
+            <id>football</id>
+            <link>//is.hkjc.com/football/info/en/betting/bettypes.asp</link>
+            <popup>2</popup>
+            <target>menu_newWindow</target>
+            <menuTxt></menuTxt>
+        </subSection>
+        <subSection>
+            <name>Mark Six</name>
+            <id>marksix</id>
+            <link>//special.hkjc.com/root/marksix/info/en/mark6/multiple_banker.asp</link>
+            <popup>2</popup>
+            <target>menu_newWindow</target>
+            <menuTxt></menuTxt>
+        </subSection>
+</section>
+	
+     <section>
+        <sectionName>Customer Services</sectionName>
+        <secionId>cs</secionId>
+        <sectionLink>#</sectionLink>
+        <sectionTarget>_self</sectionTarget>
+        <sectionPopup>0</sectionPopup>
+        <subSection>
+            <name>Customer Service Chatbot &lt;sup&gt;&lt;span style="text-align:center;color:#ffffff;background:rgb(230,0,0);margin:0;padding:0 2px;font-size:7px;line-height:9px;width:16px;display:inline-block;border-radius:2px;"&gt;New&lt;/span&gt;&lt;/sup&gt;</name>
+            <id>chatbot</id>
+            <link>//ecbp.hkjc.com/?sys=d1kE&amp;ch=6LvE&amp;lang=en</link>
+            <popup>2</popup>
+<attr>height=730,width=430,left=20,top=20,titlebar=no,toolbar=no,menubar=no,location=no,status=no</attr>
+            <target>menu_newWindow</target>
+            <menuTxt></menuTxt>
+        </subSection>    
+	<subSection>
+            <name>Customer eCentre</name>
+            <id>cssp</id>
+            <link>//wcip02.hkjc.com/loginformCSSP.aspx?language=en-us&amp;link=%23%2Fhome</link>
+            <popup>2</popup>
+            <target>menu_newWindow</target>
+            <menuTxt></menuTxt>
+        </subSection>
+	
+	<subSection>
+            <name>Download Forms</name>
+            <id>download</id>
+            <link>//special.hkjc.com/infomenu/en/register/download.asp</link>
+            <popup>1</popup>
+            <target>menu_staticSite</target>
+            <menuTxt></menuTxt>
+        </subSection>
+	<subSection>
+            <name>Other Contact Channels</name>
+            <id>contactus</id>
+            <link>//special.hkjc.com/infomenu/en/info/hotline.asp</link>
+            <popup>1</popup>
+            <target>menu_newWindow</target>
+            <menuTxt></menuTxt>
+        </subSection>
+    </section>
+
+	
+	
+</nav>

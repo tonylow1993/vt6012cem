@@ -1,0 +1,65 @@
+/* DivTable.com */
+.oMenuTABLE {
+	display: table;
+	width: 120px;
+}
+.oMenuTR {
+	display: table-row;
+}
+
+.oMenuTitle {
+	border: none;
+	width: 100%;
+	display: block;
+	padding: 7px 0px 7px 5px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #4D822D;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.oMenuHighlight {
+    background-color: #DDEAD8;
+	color: #4D822D;
+    font-weight: bold;
+}
+
+.oMenuTD1 {
+	border: none;
+	width: 1%;
+	display: table-cell;
+	padding: 10px 3px 0px 9px;
+}
+
+.oMenuTD2 {
+	border: none;
+	width: 99%;
+	display: table-cell;
+	line-height:15px;
+	padding: 7px 0px 7px 3px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+	max-width: 96px;
+}
+
+.oMenuTD2NoHover {
+	border: none;
+	width: 99%;
+	display: table-cell;
+	line-height:15px;
+	padding: 7px 0px 7px 3px;
+}
+
+.oMenuTBODY {
+	display: table-row-group;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.oMenuTD2:hover {
+		color: #4D822D;
+		font-weight: bold;
+		cursor: pointer;
+	}
+}

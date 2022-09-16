@@ -1,0 +1,600 @@
+#info_top {
+    width: 210px;
+    height: 180px;
+    padding: 0px 7px 6px 0px;
+}
+
+.racingBtn {
+    color: #80AED3;
+    line-height: 9px;
+    padding: 1px 1px 1px 2px;
+    margin: 0px 1px 0px 0px;
+    border: 1px solid #C8DCEC;
+    border-bottom: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.racingBtn:hover,
+.racingBtnOver {
+    color: #175087;
+    line-height: 9px;
+    padding: 3px 1px 1px 2px;
+    margin: 0px 1px -1px 0px;
+    border: 1px solid #4A8CC1;
+    border-bottom: 1px solid #C8DCEC;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.racingTopBtn {
+    color: #80AED3;
+    line-height: 15px;
+    padding: 3px 1px 1px 4px;
+    margin: 0px 2px -1px 0px;
+    border: 1px solid #C8DCEC;
+    border-bottom: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.racingTopBtnOver {
+    color: #175087;
+    line-height: 15px;
+    padding: 5px 1px 1px 4px;
+    margin: 0px 2px -1px 0px;
+    border: 1px solid #4A8CC1;
+    border-bottom: 1px solid #C8DCEC;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.footballBtn {
+    color: #99B27F;
+    line-height: 15px;
+    padding: 3px 4px 1px 4px;
+    margin: 0px 1px 0px 0px;
+    border: 1px solid #B2D59D;
+    border-bottom: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.footballBtn:hover,
+.footballBtnOver {
+    color: #4D822D;
+    line-height: 15px;
+    padding: 5px 4px 1px 4px;
+    margin: 0px 1px -1px 0px;
+    border: 1px solid #65AB3B;
+    border-bottom: 1px solid #B2D59D;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.marksixBtn {
+    color: #EB9B99;
+    line-height: 15px;
+    padding: 3px 3px 1px 3px;
+    margin: 0px 1px 0px 0px;
+    border: 1px solid #EB9B99;
+    border-bottom: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.marksixBtn:hover,
+.marksixBtnOver {
+    color: #CC2B30;
+    line-height: 15px;
+    padding: 5px 3px 1px 3px;
+    margin: 0px 1px -1px 0px;
+    border: 1px solid #D83834;
+    border-bottom: 1px solid #EB9B99;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.redNum1 {
+    font-size: 15px;
+    color: #CC0000;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.blue {
+    color: #175087;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.blue2 {
+    color: #2B86B5;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.blueBg {
+    color: #333333;
+    background-color: #DBE8F3;
+    line-height: 14px;
+    padding: 3px 5px 3px 5px;
+    border-bottom: 1px solid #F8F8F8;
+}
+
+.grayBg {
+    color: #333333;
+    line-height: 14px;
+    padding: 3px 5px 3px 5px;
+    border-bottom: 1px solid #F8F8F8;
+}
+
+.divBtn {
+    width: 100%;
+    text-align: center;
+    display: block;
+    cursor: pointer;
+}
+
+.landingMenuTop {
+    padding: 3px 3px 0px 3px;
+}
+
+.landingMenuContent {
+    height: 95px;
+    padding: 5px 5px 0px 5px;
+}
+
+#racingLandingTab {
+    width: 230px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid #4A8CC1;
+    white-space: nowrap;
+}
+
+#racingTopLandingTab {
+    width: 210px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid #4A8CC1;
+    white-space: nowrap;
+}
+
+#footballLandingTab {
+    width: 230px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid #65AB3B;
+    white-space: nowrap;
+}
+
+#marksixLandingTab {
+    width: 230px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid #D83834;
+    white-space: nowrap;
+}
+
+.landingMenuTABLE {
+    display: table;
+    width: 220px;
+    padding: 0px 5px 0px 0px;
+}
+
+.landingMenuTR {
+    display: table-row;
+}
+
+.landingMenuTD1 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 5px;
+    padding: 0px 5px 0px 0px;
+}
+
+.landingMenuTD2 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 70px;
+    line-height: 11px;
+}
+
+.landingFocusTD1 {
+    width: 10px;
+    display: table-cell;
+    vertical-align: top;
+    padding-top: 5px;
+}
+
+.landingFocusTD2 {
+    width: 200px;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.landingFocusTD3 {
+    width: 20px;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.landingNoFocus {
+    text-align: center;
+}
+
+.m6LastDrawBody {
+    height: 40px;
+    vertical-align: middle;
+    display: table-cell;
+    white-space: nowrap;
+}
+
+.m6LastDrawBodyColSpan {
+    width: 0px;
+    positive: relative;
+}
+
+.m6RanTable {
+    width: 230px;
+}
+
+.m6RanTable .rhead {
+    padding: 2px 0 2px 0;
+}
+
+.m6RanTable .rhead .left {
+    width: 120px;
+    text-align: left;
+    color: #CC2B30;
+    font-weight: bold;
+    float: left;
+}
+
+.m6RanTable .rhead .right {
+    width: 100px;
+    text-align: right;
+    float: right;
+}
+
+.m6RanTable .clear {
+    clear: both;
+}
+
+.m6RanBody {
+    height: 64px;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+
+.m6RanMsg {
+    width: 230px;
+    height: 64px;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+
+.m6RanMsg a {
+    color: #CC2C2C;
+}
+
+.rangenButton {
+    text-align: right;
+}
+
+.rangenButton .right {
+    width: 145px;
+    text-align: right;
+    float: right;
+}
+
+.m6NextDrawRow {
+    display: table-row;
+}
+
+.m6NextDrawLeft {
+    width: 120px;
+    display: table-cell;
+    text-align: left;
+    padding: 1px 0px 1px 5px;
+}
+
+.m6NextDrawRight {
+    width: 100px;
+    display: table-cell;
+    text-align: right;
+    padding: 1px 5px 1px 0px;
+}
+
+.m6LastDrawLeft {
+    width: 150px;
+    display: table-cell;
+    text-align: left;
+    padding: 1px 0px 1px 5px;
+}
+
+.m6LastDrawRight {
+    width: 70px;
+    display: table-cell;
+    text-align: right;
+    padding: 1px 5px 1px 0px;
+}
+
+.m6LastDrawTitle {
+    color: #CC2B30;
+    line-height: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.ttRanTable {
+    width: 230px;
+    height: 102px;
+}
+
+.ttRanTable .rhead {
+    padding: 2px 0 2px 0;
+}
+
+.ttRanTable .rhead .left {
+    width: 100px;
+    text-align: left;
+    color: #083564;
+    font-weight: bold;
+    float: left;
+}
+
+.ttRanTable .rhead .right {
+    width: 120px;
+    text-align: right;
+    float: right;
+}
+
+.ttRanTable .rhead .clear {
+    clear: both;
+}
+
+.ttRanBody {
+    height: 82px;
+}
+
+.ttRanBodyTable {
+    display: table;
+    width: 220px;
+    padding: 0px 5px 0px 0px;
+}
+
+.ttRanBodyTR {
+    display: table-row;
+}
+
+.ttRanBodyTD {
+    display: table-cell;
+    width: 72px;
+    padding: 5px 0px 0px 0px;
+}
+
+.ttRanMsg {
+    width: 230px;
+    height: 85px;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+
+#racingGenInfo {
+    height: 95px;
+    overflow: auto;
+}
+
+.racingGenInfoTable {
+    display: table;
+}
+
+.racingGenInfoTR {
+    display: table-row;
+}
+
+.racingGenInfoTD1 {
+    display: table-cell;
+    width: 120px;
+    padding: 0px 0px 0px 0px;
+}
+
+.racingGenInfoTD2 {
+    display: table-cell;
+    width: 110px;
+    padding: 0px 0px 0px 0px;
+}
+
+#racingPoolInfo {
+    height: 95px;
+    overflow: auto;
+}
+
+#racingTopPoolInfo {
+    height: 130px;
+    overflow: auto;
+}
+
+.racingPoolInfoTable {
+    display: table;
+    border-spacing: 3px;
+}
+
+.racingPoolInfoTR {
+    display: table-row;
+}
+
+.racingPoolInfoTD1 {
+    display: table-cell;
+    width: 130px;
+    padding: 1px 0px 0px 0px;
+}
+
+.racingPoolInfoTD2 {
+    display: table-cell;
+    width: 90px;
+    padding: 1px 0px 0px 0px;
+}
+
+.racingPoolBorder {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 5px 0px 5px 0px;
+}
+
+#racingChanges {
+    height: 95px;
+    overflow: auto;
+}
+
+#racingChanges ul {
+    list-style-image: url('/racing/info/images/arrow.gif');
+    margin: 0px;
+    padding: 3px 0px 0px 13px;
+}
+
+#racingChanges ul li {
+    padding: 3px 0px 0px 0px;
+}
+
+#racingGuide ul {
+    list-style-image: url('/racing/info/images/arrow.gif');
+    margin: 0px;
+    padding: 3px 0px 0px 13px;
+}
+
+#racingGuide ul li {
+    padding: 3px 0px 0px 0px;
+}
+
+#racingTopGenInfo {
+    height: 130px;
+    overflow: auto;
+}
+
+#racingTopGenInfo ul {
+    list-style-image: url('/racing/info/images/arrow.gif');
+    margin: 0px;
+    padding: 3px 0px 0px 13px;
+}
+
+#racingTopGenInfo ul li {
+    padding: 3px 0px 0px 0px;
+}
+
+#racingTopChanges {
+    height: 130px;
+    overflow: auto;
+}
+
+#racingTopChanges ul {
+    list-style-image: url('/racing/info/images/arrow.gif');
+    margin: 0px;
+    padding: 3px 0px 3px 13px;
+}
+
+#racingTopChanges ul li {
+    padding: 3px 0px 0px 0px;
+}
+
+#marksixGuide ul {
+    list-style-image: url('/marksix/info/images/arrow.gif');
+    margin: 0px;
+    padding: 3px 0px 0px 13px;
+}
+
+#marksixGuide ul li {
+    padding: 3px 0px 0px 0px;
+}
+
+#footballGuide ul {
+    list-style-image: url('/football/info/images/arrow.gif');
+    margin: 0px;
+    padding: 3px 0px 0px 13px;
+}
+
+#footballGuide ul li {
+    padding: 3px 0px 0px 0px;
+}
+
+#info_top #marksixLandingTab {
+    width: 210px;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid #D83834;
+}
+
+.marksixTopMenuContent {
+    height: 95px;
+    padding: 5px 5px 0px 5px;
+    margin: 0px 0px 0px 5px;
+    color: #CC2C2C;
+}
+
+.marksixTopMenuContent ul {
+    list-style-image: url('/marksix/info/images/arrow.gif');
+    margin: 0px;
+    padding: 3px 0px 0px 13px;
+}
+
+.marksixTopMenuContent ul li {
+    padding: 5px 0px 5px 0px;
+}
+
+#divLandingNew {
+    display: inline-block;
+    width: 203px;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.divLandingNewsHeader {
+    background-image: url(/contentserver/jcbw/ekba/images/en/title_news.gif);
+    background-repeat: no-repeat;
+    width: auto;
+    height: 15px;
+    border-bottom: #003D82 2px solid;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+
+#divLandingNewsInner {
+    position: relative;
+    width: 194px;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: #666666;
+    padding: 3px 0px 0px 8px;
+}
+
+#divLandingNewsInner ul {
+    list-style-image: url('/info/include/images/iframe_arrow.gif');
+    margin: 0px;
+    padding: 3px 0px 0px 10px;
+}
+
+#divLandingNewsInner ul li {
+    padding: 3px 0px 0px 0px;
+}
+
+#divTopBanner {
+    display: inline-block;
+}

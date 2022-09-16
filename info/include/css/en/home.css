@@ -1,0 +1,86 @@
+.secMenu {
+    display: table;
+    width: 750px;
+    background-color: #FFFFFF;
+    margin: 0px 6px 0px 6px;
+    padding: 7px 7px 7px 7px;
+}
+
+.secMenuTR {
+    display: table-row;
+}
+
+.secTable {
+    display: table;
+    width: 100%;
+}
+
+.secMenuLine {
+    background-color: #FFDE00;
+    display: block;
+    width: 100%;
+    height: 3px;
+}
+
+#secMenuHR {
+    background-image: url('/info/include/images/en/btn_racing_off.gif');
+    background-repeat: no-repeat;
+    display: table-cell;
+    width: 52px;
+    height: 40px;
+    padding-left: 1px;
+}
+
+#secMenuHR:hover {
+    background-image: url('/info/include/images/en/btn_racing_over.gif');
+    cursor: pointer;
+}
+
+#secMenuFB {
+    background-image: url('/info/include/images/en/btn_football_off.gif');
+    background-repeat: no-repeat;
+    display: table-cell;
+    width: 52px;
+    height: 40px;
+    padding-left: 1px;
+}
+
+#secMenuFB:hover {
+    background-image: url('/info/include/images/en/btn_football_over.gif');
+    cursor: pointer;
+}
+
+#secMenuM6 {
+    background-image: url('/info/include/images/en/btn_marksix_off.gif');
+    background-repeat: no-repeat;
+    display: table-cell;
+    width: 52px;
+    height: 40px;
+    padding-left: 1px;
+}
+
+#secMenuM6:hover {
+    background-image: url('/info/include/images/en/btn_marksix_over.gif');
+    cursor: pointer;
+}
+
+#secMenu3in1 {
+    background-image: url('/info/include/images/en/btn_ewin_on.gif');
+    background-repeat: no-repeat;
+    display: table-cell;
+    width: 53px;
+    height: 40px;
+    padding-left: 1px;
+}
+
+#secMenu3in1:hover {
+    cursor: pointer;
+}
+
+#info_top_block {
+    width: 210px;
+    height: 179px;
+    border-bottom: #003D82 1px solid;
+    float: left;
+    margin: 0px 8px 0px 8px;
+}

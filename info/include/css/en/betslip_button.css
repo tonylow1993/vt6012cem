@@ -1,0 +1,805 @@
+#divBetSlipMinimize {
+    background: url(/info/include/images/en/betslip_minimize.gif) top no-repeat;
+    width: 187px;
+    height: 30px;
+}
+
+.divSummaryYes {
+    background: url(/info/include/images/s_icon_yes.gif) no-repeat left center;
+    color: #009900;
+}
+
+.divSummaryNo {
+    background: url(/info/include/images/s_icon_no.gif) no-repeat left center;
+    color: #ff0000;
+}
+
+.divSummaryUnknown {
+    background: url(/info/include/images/s_icon_unknown.gif) no-repeat left center;
+    color: #ffae00;
+}
+
+.divCellYes {
+    width: 23px;
+    height: 23px;
+}
+
+.divCellNo {
+    width: 23px;
+    height: 23px;
+}
+
+.divCellUnknown {
+    width: 23px;
+    height: 23px;
+}
+
+.welcomeDiv {
+    background: url(/info/include/images/betslip_logo.gif) no-repeat 0px 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+.errorMsgClodeButton {
+    background: url(/info/include/images/betslip_error_close.gif) no-repeat;
+    width: 16px;
+    height: 17px;
+    margin: 3px 3px 0px 0px;
+    float: right;
+}
+
+.accInfoBg {
+    background: url(/info/include/images/betslip_top_bg.gif) top repeat-x #EBEBEB;
+}
+
+.accInfoTable {
+    display: table;
+    width: 221px;
+    height: 69px;
+    background: url(/info/include/images/betslip_logo.gif) no-repeat 0px 10px;
+}
+
+.topHelpButton {
+    background: url(/info/include/images/icon_help.gif) no-repeat;
+    width: 15px;
+    height: 15px;
+    margin: 5px 3px 0px 0px;
+    float: right;
+}
+
+.bottomHelpButton {
+    background: url(/info/include/images/icon_help.gif) no-repeat;
+    width: 15px;
+    height: 15px;
+    margin: 0px 3px 0px 5px;
+    float: left;
+}
+
+.topHelpButton:hover,
+.bottomHelpButton:hover {
+    cursor: help;
+}
+
+.minimizeButton {
+    background: url(/info/include/images/icon_min.gif) no-repeat;
+    width: 15px;
+    height: 15px;
+    margin: 5px 5px 0px 0px;
+    float: right;
+}
+
+.minimizeButton:hover,
+.slipAlupUp:hover,
+.slipAlupDown:hover,
+.slipInactivePanel:hover {
+    cursor: pointer;
+}
+
+.loginButton {
+    background: url(/info/include/images/en/btn_login.gif) no-repeat;
+    width: 50px;
+    height: 21px;
+    margin: 2px 5px 0px 0px;
+    float: right;
+}
+
+.loginButton:hover {
+    background: url(/info/include/images/en/btn_login_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.loginDimmedButton {
+    background: url(/info/include/images/en/btn_login_dimmed.gif) no-repeat;
+    width: 50px;
+    height: 21px;
+    margin: 2px 5px 0px 0px;
+    float: right;
+}
+
+.loginSSONextButton {
+    background: url(/info/include/images/en/btn_next.gif) no-repeat;
+    width: 50px;
+    height: 21px;
+    margin: 2px 5px 0px 0px;
+    float: right;
+    display: none;
+}
+
+.loginSSONextButton:hover {
+    background: url(/info/include/images/en/btn_next_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.loginSSONextDimmedButton {
+    background: url(/info/include/images/en/btn_next_off.gif) no-repeat;
+    width: 50px;
+    height: 21px;
+    margin: 2px 5px 0px 0px;
+    float: right;
+}
+
+.logoutButton {
+    background: url(/info/include/images/en/btn_logout.gif) no-repeat;
+    width: 50px;
+    height: 21px;
+    margin: 5px 5px 0px 0px;
+    float: right;
+}
+
+.logoutButton:hover {
+    background: url(/info/include/images/en/btn_logout_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.slipExpand {
+    display: table-cell;
+    width: 9px;
+    background: url(/info/include/images/betslip_open.gif) left center no-repeat, url(/info/include/images/betslip_left_bg.gif) left top repeat-y;
+}
+
+.slipExpand:hover {
+    background: url(/info/include/images/betslip_open_on.gif) left center no-repeat, url(/info/include/images/betslip_left_bg.gif) left top repeat-y;
+    cursor: pointer;
+}
+
+.accInfoCellStroke {
+    background: url(/info/include/images/stroke_gray.gif) no-repeat center center;
+    display: table-cell;
+    width: 1px;
+    height: 11px;
+}
+
+.slipCollapse {
+    display: table-cell;
+    width: 9px;
+    background: url(/info/include/images/betslip_collapse.gif) left center no-repeat, url(/info/include/images/betslip_left_bg.gif) left top repeat-y;
+}
+
+.slipCollapse:hover {
+    background: url(/info/include/images/betslip_collapse_on.gif) left center no-repeat, url(/info/include/images/betslip_left_bg.gif) left top repeat-y;
+    cursor: pointer;
+}
+
+.cancelButton {
+    background: url(/info/include/images/en/betslip_btn_cancel.gif) no-repeat;
+    width: 50px;
+    height: 21px;
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+
+.cancelButton:hover {
+    background: url(/info/include/images/en/betslip_btn_cancel_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.confirmButton {
+    background: url(/info/include/images/en/betslip_btn_confirm.gif) no-repeat;
+    width: 50px;
+    height: 21px;
+    float: right;
+    margin: 0px 10px 0px 10px;
+}
+
+.confirmButton:hover {
+    background: url(/info/include/images/en/betslip_btn_confirm_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.backButton {
+    background: url(/info/include/images/en/btn_back.gif) no-repeat;
+    width: 50px;
+    height: 21px;
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+
+.backButton:hover {
+    background: url(/info/include/images/en/btn_back_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.logoutEKBAButton {
+    background: url(/info/include/images/en/btn_logout.gif) no-repeat;
+    width: 50px;
+    height: 21px;
+    float: left;
+    margin: 0px 10px 0px 10px;
+}
+
+.logoutEKBAButton:hover {
+    background: url(/info/include/images/en/btn_logout_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.disclaimerEnterButton {
+    background: url(/info/include/images/en/betslip_enter.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    margin: 10px 7px 10px 0px;
+    float: right;
+}
+
+.disclaimerEnterButton:hover {
+    background: url(/info/include/images/en/betslip_enter_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.accBalButton {
+    display: inline-block;
+    background: url(/info/include/images/icon_refresh.gif) no-repeat;
+    width: 15px;
+    height: 15px;
+    margin: 0px 0px 0px 5px;
+    cursor: pointer;
+}
+
+.accBalButtonLoading {
+    display: inline-block;
+    background: url(/info/include/images/betslip_loading.gif) no-repeat;
+    width: 15px;
+    height: 15px;
+    margin: 0px 0px 0px 5px;
+}
+
+.slipAlupUp {
+    background: url(/info/include/images/btn_up.gif) no-repeat;
+    width: 16px;
+    height: 10px;
+}
+
+.slipAlupDown {
+    background: url(/info/include/images/btn_down.gif) no-repeat;
+    width: 16px;
+    height: 10px;
+}
+
+.slipAddBet {
+    background: url(/info/include/images/en/btn_addslip.gif) no-repeat;
+    width: 72px;
+    height: 21px;
+    float: right;
+    display: none;
+}
+
+.slipAddBet:hover {
+    background: url(/info/include/images/en/btn_addslip_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.slipDelButton {
+    background: url(/info/include/images/icon_del.gif) no-repeat;
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+
+.slipDottedLine {
+    background: url(/info/include/images/dash1.gif) repeat-x center;
+    padding: 3px 3px 3px 3px;
+}
+
+.slipDeleteBet {
+    background: url(/info/include/images/en/btn_del.gif) no-repeat;
+    width: 72px;
+    height: 21px;
+    float: right;
+    padding: 0px 2px 0px 0px;
+}
+
+.slipDeleteBet:hover {
+    background: url(/info/include/images/en/btn_del_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.slipSendPreview {
+    background: url(/info/include/images/en/btn_sendpreview.gif) no-repeat;
+    width: 72px;
+    height: 21px;
+    float: right;
+}
+
+.slipSendPreview:hover {
+    background: url(/info/include/images/en/btn_sendpreview_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.previewDeleteDimButton {
+    background: url(/info/include/images/en/betslip_del_off.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+}
+
+.previewDeleteButton {
+    background: url(/info/include/images/en/betslip_del.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+}
+
+.previewDeleteButton:hover {
+    background: url(/info/include/images/en/betslip_del_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.previewCloseDimButton {
+    background: url(/info/include/images/en/betslip_preview_close_off.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    display: inline-block;
+}
+
+.previewCloseButton {
+    background: url(/info/include/images/en/betslip_preview_close.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    display: inline-block;
+}
+
+.previewCloseButton:hover {
+    background: url(/info/include/images/en/betslip_preview_close_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.previewSendDimButton {
+    background: url(/info/include/images/en/betslip_preview_send_off.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    display: inline-block;
+}
+
+.previewSendButton {
+    background: url(/info/include/images/en/betslip_preview_send.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    display: inline-block;
+}
+
+.previewSendButton:hover {
+    background: url(/info/include/images/en/betslip_preview_send_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.replyRecallButton {
+    background: url(/info/include/images/en/betslip_recall.gif) no-repeat;
+    width: 164px;
+    height: 21px;
+    float: right;
+}
+
+.replyRecallButton:hover {
+    background: url(/info/include/images/en/betslip_recall_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.replyCloseButton {
+    background: url(/info/include/images/en/betslip_done.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    float: right;
+}
+
+.replyCloseButton:hover {
+    background: url(/info/include/images/en/betslip_done_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.slipStrokeOrange {
+    background: url(/info/include/images/stroke_orange.gif) no-repeat;
+    width: 3px;
+    height: 15px;
+    padding: 0px 5px 0px 0px;
+    float: left;
+}
+
+.strokeGray {
+    background: url(/info/include/images/stroke_gray.gif) center no-repeat;
+    float: left;
+    width: 1px;
+    height: 30px;
+    margin: 0px 0px 0px 16px;
+}
+
+.boHelpButton {
+    width: 15px;
+    height: 15px;
+    float: left;
+    margin: 7px 0px 0px 3px;
+}
+
+.boHelpButton:hover {
+    cursor: help;
+}
+
+.statementConfirmButton {
+    background: url(/info/include/images/en/btn_ok.gif) no-repeat;
+    float: right;
+    width: 71px;
+    height: 21px;
+    margin: 15px 12px 0px 0px;
+}
+
+.statementConfirmButton:hover {
+    background: url(/info/include/images/en/btn_ok_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+#betHeaderPrint {
+    background: url(/info/include/images/icon_print.gif) no-repeat right center;
+    width: 42px;
+    height: 15px;
+    float: right;
+    padding: 7px 0px 7px 0px;
+}
+
+#betHeaderPrint:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#logoutClose {
+    background: url(/info/include/images/en/btn_close.gif) no-repeat;
+    display: table-cell;
+    width: 71px;
+    height: 21px;
+    vertical-align: middle;
+    float: right;
+}
+
+#logoutClose:hover {
+    background: url(/info/include/images/en/btn_close_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.stmtCloseButton {
+    background: url(/info/include/images/en/btn_close.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    float: left;
+}
+
+.stmtCloseButton:hover {
+    background: url(/info/include/images/en/btn_close_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.stmtPrintButton {
+    background: url(/info/include/images/en/btn_print.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    float: right;
+    margin: 0px 5px 0px 0px;
+}
+
+.stmtPrintButton:hover {
+    background: url(/info/include/images/en/btn_print_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.stmtExportButton {
+    background: url(/info/include/images/en/btn_export.png) no-repeat;
+    width: 71px;
+    height: 21px;
+    float: right;
+    margin: 0px 5px 0px 0px;
+}
+
+.stmtExportButton:hover {
+    background: url(/info/include/images/en/btn_export_on.png) no-repeat;
+    cursor: pointer;
+}
+
+#stmtExportHtml {
+    background: url(/info/include/images/en/btn_export_html.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+}
+
+#stmtExportHtml:hover {
+    background: url(/info/include/images/en/btn_export_html_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+#stmtExportText {
+    background: url(/info/include/images/en/btn_export_text.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+}
+
+#stmtExportText:hover {
+    background: url(/info/include/images/en/btn_export_text_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.stmtNewSearchButton {
+    background: url(/info/include/images/en/betslip_new_search.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    float: right;
+    margin: 0px 5px 0px 0px;
+}
+
+.stmtNewSearchButton:hover {
+    background: url(/info/include/images/en/betslip_new_search_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.stmtNextButton {
+    background: url(/info/include/images/en/btn_stmt_next.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    float: right;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .stmtNextButton:hover {
+        background: url(/info/include/images/en/btn_stmt_next_on.gif) no-repeat;
+        cursor: pointer;
+    }
+}
+
+.stmtNextDimButton {
+    background: url(/info/include/images/en/btn_stmt_next_off.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    float: right;
+}
+
+.stmtPrevButton {
+    background: url(/info/include/images/en/btn_prev.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    float: right;
+    margin: 0px 5px 0px 0px;
+}
+
+.stmtPrevButton:hover {
+    background-image: url(/info/include/images/en/btn_prev_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.stmtPrevDimButton {
+    background: url(/info/include/images/en/btn_prev_off.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    float: right;
+    margin: 0px 5px 0px 0px;
+}
+
+.settingDefaultButton {
+    background: url(/info/include/images/en/betslip_default.gif) no-repeat;
+    width: 108px;
+    height: 21px;
+    float: left;
+    margin: 0px 0px 0px 5px;
+}
+
+.settingDefaultButton:hover {
+    background: url(/info/include/images/en/betslip_default_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.settingSaveButton {
+    background: url(/info/include/images/en/betslip_save.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    float: right;
+    margin: 0px 5px 0px 0px;
+}
+
+.settingSaveButton:hover {
+    background: url(/info/include/images/en/betslip_save_on.gif) no-repeat;
+    cursor: pointer;
+}
+
+.alupIcon {
+    background: url(/info/include/images/en/icon_allup.gif) no-repeat;
+    float: left;
+    width: 30px;
+    height: 17px;
+    padding: 0px 3px 0px 0px;
+}
+
+.alupIconON {
+    background: url(/info/include/images/en/icon_allup_on.gif) no-repeat;
+    float: left;
+    width: 30px;
+    height: 17px;
+    padding: 0px 3px 0px 0px;
+}
+
+.alupIconDim {
+    background: url(/info/include/images/en/icon_allup_dim.gif) no-repeat;
+    float: left;
+    width: 30px;
+    height: 17px;
+    padding: 0px 3px 0px 0px;
+}
+
+.alupIcon:hover,
+.alupIconON:hover {
+    cursor: pointer;
+}
+
+/* flexibet dropdown */
+
+.ctlSelect {
+    width: 37px;
+    cursor: default;
+    border: 1px solid #9D9D9D;
+    color: #9D9D9D;
+    background: #FFFFFF;
+    text-align: right;
+    display: inline;
+    padding: 2px 5px 0px 5px;
+}
+
+.ctlSelectHL {
+    width: 37px;
+    cursor: default;
+    border: 1px solid #9D9D9D;
+    background: #9D9D9D;
+    color: #FFFFFF;
+    text-align: right;
+    display: inline-block;
+}
+
+.ctlSelectExpand {
+    width: 73px;
+    cursor: default;
+    border: 1px solid #9D9D9D;
+    color: #9D9D9D;
+    background: #FFFFFF;
+    display: inline-block;
+}
+
+.ctlSelectExpandHL {
+    width: 73px;
+    cursor: default;
+    border: 1px solid #9D9D9D;
+    background: #9D9D9D;
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.ctlSelectInput {
+    padding: 0px 1px 0px 2px;
+    display: inline;
+    color: #333333;
+}
+
+.ctlSelectInputHL {
+    padding: 0px 1px 0px 2px;
+    display: inline;
+    background: #9D9D9D;
+    color: #FFFFFF;
+}
+
+.ctlSelectArrow {
+    display: inline;
+    font-size: 12px;
+    color: #333333;
+}
+
+.ctlSelectArrowHL {
+    display: inline;
+    background: #9D9D9D;
+    color: #FFFFFF;
+}
+
+.ctlOptions {
+    width: 80px;
+    cursor: default;
+    border: 1px solid #9D9D9D;
+}
+
+.ctlSelectOption {
+    padding: 0px 1px 0px 2px;
+    color: #FFFFFF;
+    background: #9D9D9D;
+    text-align: right;
+}
+
+.ctlUnSelectOption {
+    padding: 0px 1px 0px 2px;
+    color: #333333;
+    background: #FFFFFF;
+    text-align: right;
+}
+
+.ctlSelect2 {
+    width: 39px;
+    cursor: default;
+    border: 1px solid #9D9D9D;
+    color: #9D9D9D;
+    background: #FFFFFF;
+    text-align: right;
+}
+
+.ctlSelectHL2 {
+    width: 39px;
+    cursor: default;
+    border: 1px solid #9D9D9D;
+    background: #9D9D9D;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.ctlSelectInput2 {
+    padding: 0px 1px 0px 2px;
+    display: inline;
+    color: #333333;
+}
+
+.ctlSelectInputHL2 {
+    padding: 0px 1px 0px 2px;
+    display: inline;
+    background: #9D9D9D;
+    color: #FFFFFF;
+}
+
+.ctlOptions2 {
+    cursor: default;
+    border: 1px solid #9D9D9D;
+}
+
+.ctlOptionsExpand2 {
+    cursor: default;
+    border: 1px solid #9D9D9D;
+}
+
+.ctlSelectOption2 {
+    padding: 0px 1px 0px 2px;
+    color: #FFFFFF;
+    background: #9D9D9D;
+    text-align: right;
+}
+
+.ctlUnSelectOption2 {
+    padding: 0px 1px 0px 2px;
+    color: #333333;
+    background: #FFFFFF;
+    text-align: right;
+}
+
+.eWalletUpgrade {
+    background: url(/info/include/images/en/btn_upgrade_en.gif) no-repeat;
+    width: 83px;
+    height: 21px;
+    float: left;
+    margin: 0px 0px 0px 5px;
+}
+
+.eWalletUpgrade:hover {
+    background: url(/info/include/images/en/btn_upgrade_on_en.gif) no-repeat;
+}
+
+.eWalletLater {
+    background: url(/info/include/images/en/btn_later_en.gif) no-repeat;
+    width: 71px;
+    height: 21px;
+    float: left;
+    margin: 0px 0px 0px 5px;
+}
+
+.eWalletLater:hover {
+    background: url(/info/include/images/en/btn_later_on_en.gif) no-repeat;
+}

@@ -1,0 +1,3 @@
+WATracker.setOptions({
+    enabled: true
+});

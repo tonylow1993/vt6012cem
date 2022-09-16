@@ -1,0 +1,1 @@
+﻿var txnSiteId = "02";

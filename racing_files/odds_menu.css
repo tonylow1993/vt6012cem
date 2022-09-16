@@ -1,0 +1,82 @@
+/* DivTable.com */
+.oMenuTABLE {
+	display: table;
+	width: 120px;
+}
+.oMenuTR {
+	display: table-row;
+}
+
+.oMenuTitle {
+	border: none;
+	width: 100%;
+	display: block;
+	padding: 7px 0px 7px 5px;
+	font-weight: bold;
+	font-size: 12px;
+	color: #083564;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.oMenuHighlight {
+    background-color: #DBE7F3;
+	color: #083564;
+    font-weight: bold;
+}
+
+.oMenuTD1 {
+	border: none;
+	width: 1%;
+	display: table-cell;
+	padding: 10px 3px 0px 9px;
+}
+
+.oMenuTD2 {
+	border: none;
+	width: 99%;
+	display: table-cell;
+	line-height:15px;
+	padding: 7px 0px 7px 3px;
+}
+
+.oMenuTD2NoHover {
+	border: none;
+	width: 99%;
+	display: table-cell;
+	line-height:15px;
+	padding: 7px 0px 7px 3px;
+}
+
+.oMenuChildTD1 {
+	border: none;
+	width: 1%;
+	display: table-cell;
+	padding: 0px 3px 0px 9px;
+}
+
+.oMenuChildTD2 {
+	border: none;
+	width: 99%;
+	display: table-cell;
+	line-height:15px;
+	padding: 2px 0px 2px 3px;
+}
+
+.oMenuTBODY {
+	display: table-row-group;
+}
+
+@media (hover: hover) and (pointer: fine) {
+	.oMenuTD2:hover {
+		color: #083564;
+		font-weight: bold;
+		cursor: pointer;
+	}
+	
+	.oMenuChildTD2:hover {
+		color: #083564;
+		font-weight: bold;
+		cursor: pointer;
+	}
+}

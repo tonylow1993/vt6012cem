@@ -1,0 +1,643 @@
+@media screen {
+    #printDiv {
+        display: none;
+    }
+}
+
+@media print {
+    #printDiv {
+        display: block !important;
+        width: 770px !important;
+    }
+    #divStatement {
+        display: none !important;
+    }
+}
+
+#divBetSlipOverlay {
+    position: fixed;
+    display: none;
+    z-index: 500;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#divBetSlipOverlay #divStatement {
+    position: relative;
+    display: none;
+    width: 770px;
+    height: 480px;
+    top: 50%;
+    left: 50%;
+    margin-left: -385px;
+    margin-top: -240px;
+    background-color: #b7bfc8;
+    padding: 9px 7px 9px 7px;
+}
+
+.divPop {
+    overflow: scroll;
+    height: 100vh;
+}
+
+.divPop #divStatement {
+    position: relative;
+    display: none;
+    width: 770px;
+    height: 480px;
+    background-color: #b7bfc8;
+    padding: 9px 7px 9px 7px;
+}
+
+#divBetSlipOverlay #divPersonalSetting {
+    position: relative;
+    display: none;
+    width: 660px;
+    height: 420px;
+    top: 50%;
+    left: 50%;
+    margin-left: -330px;
+    margin-top: -210px;
+    background-color: #b7bfc8;
+    padding: 9px 7px 9px 7px;
+}
+
+.divPop #divPersonalSetting {
+    position: relative;
+    display: none;
+    width: 660px;
+    height: 420px;
+    background-color: #b7bfc8;
+    padding: 9px 7px 9px 7px;
+}
+
+#divBetSlipOverlay #divFundTransfer {
+    height: 745px;
+    position: relative;
+    display: none;
+    width: 740px;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+
+.divPop #divFundTransfer {
+    /* height: 745px; */
+    position: relative;
+    display: none;
+    width: 740px;
+    background-color: #FFFFFF;
+    padding: 9px 7px 9px 7px;
+}
+
+#divStatement .topYellowBar,
+#divPersonalSetting .topYellowBar {
+    height: 3px;
+    background-color: #ffde00;
+}
+
+#divStatementSearchBox {
+    display: none;
+    padding: 7px 15px 1px 15px;
+    border-top: 2px solid #003B7F;
+    background-color: #EEEEEE;
+}
+
+#divSearchBlock1 {
+    width: 53%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px 0px 2px 0px;
+}
+
+#divSearchBlock2 {
+    width: 46%;
+    display: inline-block;
+    float: right;
+    text-align: right;
+    vertical-align: top;
+    padding: 2px 0px 2px 0px;
+}
+
+#lastDayOption {
+    display: none;
+}
+
+#asSelDtRange {
+    padding: 3px 0px 0px 30px;
+}
+
+#divStatementYellowHeader,
+#divCurSessionYellowHeader,
+#divRecallYellowHeader {
+    border-top: 2px solid #003B7F;
+    display: none;
+}
+
+#divStatementTable {
+    display: none;
+    min-height: 280px;
+}
+
+#divCurSessionTable {
+    display: none;
+    min-height: 342px;
+}
+
+#divRecallTable {
+    display: none;
+    min-height: 376px;
+}
+
+#divSettingTable {
+    display: none;
+    min-height: 366px;
+    margin: 5px 0px 0px 0px;
+}
+
+#stmtMsg,
+#curSessionMsg,
+#recallMsg {
+    position: absolute;
+    font-weight: bold;
+    margin: 100px auto;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+#stmtTable,
+#recallTable {
+    overflow-y: scroll;
+    height: 310px;
+    display: block;
+}
+
+#curSessionTable {
+    overflow-y: scroll;
+    height: 280px;
+}
+
+#settingTable {
+    overflow-y: scroll;
+    height: 330px;
+}
+
+#divStmtBottom,
+#divCurSessionBottom,
+#divRecallBottom,
+#divSettingBottom {
+    display: none;
+    border-top: 2px solid #003B7F;
+    padding: 10px 15px 25px 15px;
+}
+
+.settingHeaderOpen,
+.settingHeaderClose {
+    line-height: 15px;
+    color: #003B7F;
+    font-weight: bold;
+    background: url(/info/include/images/betslip_setting_open.gif) left 10px center no-repeat #D9E2EC;
+    height: 22px;
+    vertical-align: middle;
+    padding: 7px 0px 0px 35px;
+    margin: 1px 5px 1px 0px;
+}
+
+.settingHeaderOpen {
+    background: url(/info/include/images/betslip_setting_open.gif) left 10px center no-repeat #D9E2EC;
+}
+
+.settingHeaderClose {
+    background: url(/info/include/images/betslip_setting_close.gif) left 10px center no-repeat #D9E2EC;
+}
+
+.settingHeaderOpen:hover,
+.settingHeaderClose:hover {
+    cursor: pointer;
+}
+
+.settingTable {
+    margin: 2px 0px 25px 0px;
+}
+
+.settingCellLeft {
+    display: table-cell;
+    color: #333333;
+    background-color: #EEEEEE;
+    line-height: 15px;
+    width: 87px;
+    text-decoration: none;
+    padding: 5px 5px 5px 15px;
+}
+
+.settingCellRight {
+    display: table-cell;
+    color: #333333;
+    background-color: #EEEEEE;
+    line-height: 15px;
+    width: 80px;
+    text-decoration: none;
+    padding: 5px 15px 5px 5px;
+    border-right: 1px solid #CCCCCC;
+    text-align: right;
+}
+
+.settingCellM6 {
+    color: #333333;
+    background-color: #EEEEEE;
+    line-height: 15px;
+    text-decoration: none;
+    padding: 8px 5px 5px 15px;
+    margin: 0px 5px 0px 0px;
+}
+
+.settingCellAcc1 {
+    display: table-cell;
+    color: #333333;
+    background-color: #EEEEEE;
+    line-height: 15px;
+    width: 141px;
+    text-decoration: none;
+    padding: 5px 5px 5px 15px;
+}
+
+.settingCellAcc2 {
+    display: table-cell;
+    color: #333333;
+    background-color: #EEEEEE;
+    line-height: 15px;
+    width: 282px;
+    text-decoration: none;
+    padding: 5px 5px 5px 15px;
+}
+
+.boCenter {
+    background-color: #FFFFFF;
+    padding: 7px 7px 7px 7px;
+}
+
+.boHeader {
+    line-height: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 15px;
+    vertical-align: middle;
+    padding: 4px 0px 0px 20px;
+    background: url(/info/include/images/stroke_yellow.gif) left 5px center no-repeat #003B7F;
+    height: 19px;
+}
+
+.boSubheader {
+    background: url(/info/include/images/betslip_popup_nav_bg.gif) repeat-x;
+    width: 100%;
+    height: 30px;
+    border-top: 1px solid #E8E9EA;
+    border-bottom: 1px solid #E8E9EA;
+    margin: 2px 0px 4px 0px;
+    padding: 0px 0px 1px 0px;
+}
+
+.boNav {
+    float: left;
+    color: #666666;
+    line-height: 15px;
+    text-decoration: none;
+    padding: 8px 0px 0px 16px;
+}
+
+.boNav:hover {
+    color: #003B7F;
+    cursor: pointer;
+}
+
+.boHighlight {
+    font-weight: bold;
+}
+
+.searchDateCell1 {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0px 10px 0px 10px;
+}
+
+.searchDateCell2 {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.searchDateCell3 {
+    display: table-cell;
+    vertical-align: top;
+    text-align: right;
+}
+
+.curSessionNote {
+    color: #333333;
+    line-height: 15px;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    padding: 7px 15px 7px 15px;
+}
+
+.stmtMiddleHeader {
+    color: #333333;
+    line-height: 15px;
+    height: 19px;
+    padding: 4px 5px 0px 5px;
+    background-color: #FFF4B0;
+}
+
+#stmtPageNo {
+    float: left;
+}
+
+#stmtAccBal,
+#stmtAccNo,
+#stmtTime,
+#curSessionAccBal {
+    float: right;
+    padding: 0px 0px 0px 20px;
+}
+
+.stmtTableContentHeader {
+    color: #333333;
+    line-height: 15px;
+    text-decoration: none;
+    padding: 5px 0px 5px 0px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    border-right: #FFFFFF 1px solid;
+}
+
+.stmtTableContentHead1 {
+    display: inline-block;
+    width: 57px;
+}
+
+.stmtTableContentHead2 {
+    display: inline-block;
+    width: 66px;
+}
+
+.stmtTableContentHead3 {
+    display: inline-block;
+    width: 82px;
+}
+
+.stmtTableContentHead4 {
+    display: inline-block;
+    width: 61px;
+}
+
+.stmtTableContentHead5 {
+    display: inline-block;
+    width: 279px;
+}
+
+.stmtTableContentHead6 {
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+}
+
+.stmtTableContentHead7 {
+    display: inline-block;
+    width: 75px;
+    text-align: right;
+}
+
+.stmtTableContentHead8 {
+    display: inline-block;
+    width: 39px;
+    text-align: center;
+}
+
+.stmtTableContentHeadA {
+    display: inline-block;
+    width: 85px;
+}
+
+.stmtTableContentHeadB {
+    display: inline-block;
+    width: 573px;
+}
+
+.stmtTableContentHeadC {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
+
+.stmtTableContentCell1 {
+    display: table-cell;
+    width: 57px;
+}
+
+.stmtTableContentCell2 {
+    display: table-cell;
+    width: 66px;
+}
+
+.stmtTableContentCell3 {
+    display: table-cell;
+    width: 82px;
+}
+
+.stmtTableContentCell4 {
+    display: table-cell;
+    width: 58px;
+    padding-right: 3px;
+}
+
+.stmtTableContentCell5 {
+    display: table-cell;
+    width: 287px;
+}
+
+.stmtTableContentCell6 {
+    display: table-cell;
+    width: 39px;
+    text-align: center;
+}
+
+.stmtTableContentCellA {
+    display: table-cell;
+    width: 85px;
+}
+
+.stmtTableContentCellB {
+    display: table-cell;
+    width: 578px;
+}
+
+.stmtTableContentCellC {
+    display: table-cell;
+    width: 80px;
+}
+
+.stmtTableContentAmount {
+    display: table-cell;
+    width: 75px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.curSessionContentHead1 {
+    display: table-cell;
+    width: 61px;
+}
+
+.curSessionContentHead2 {
+    display: table-cell;
+    width: 69px;
+    text-align: center;
+}
+
+.curSessionContentHead3 {
+    display: table-cell;
+    width: 105px;
+}
+
+.curSessionContentHead4 {
+    display: table-cell;
+    width: 63px;
+}
+
+.curSessionContentHead5 {
+    display: table-cell;
+    width: 363px;
+}
+
+.curSessionContentHead6 {
+    display: table-cell;
+    width: 78px;
+    text-align: right;
+}
+
+.curSessionContentCell1 {
+    display: table-cell;
+    width: 61px;
+}
+
+.curSessionContentCell2 {
+    display: table-cell;
+    width: 69px;
+    text-align: center;
+}
+
+.curSessionContentCell3 {
+    display: table-cell;
+    width: 105px;
+}
+
+.curSessionContentCell4 {
+    display: table-cell;
+    width: 63px;
+}
+
+.curSessionContentCell5 {
+    display: table-cell;
+    width: 363px;
+}
+
+.curSessionContentCell6 {
+    display: table-cell;
+    width: 78px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.recallTableContentHead1 {
+    display: table-cell;
+    width: 55px;
+    border-left: #FFFFFF 1px solid;
+}
+
+.recallTableContentHead2 {
+    display: table-cell;
+    width: 77px;
+    border-left: #FFFFFF 1px solid;
+}
+
+.recallTableContentHead3 {
+    display: table-cell;
+    width: 506px;
+    border-left: #FFFFFF 1px solid;
+}
+
+.recallTableContentHead4 {
+    display: table-cell;
+    width: 97px;
+    text-align: right;
+    border-left: #FFFFFF 1px solid;
+}
+
+.betslipRow {
+    display: table-row;
+}
+
+.recallTableContentCell1 {
+    display: table-cell;
+    width: 56px;
+}
+
+.recallTableContentCell2 {
+    display: table-cell;
+    width: 78px;
+}
+
+.recallTableContentCell3 {
+    display: table-cell;
+    width: 506px;
+}
+
+.recallTableContentCell4 {
+    display: table-cell;
+    width: 98px;
+    text-align: right;
+}
+
+#divStmtYellowNote {
+    color: #333333;
+    line-height: 15px;
+    background-color: #FFF4B0;
+    border-top: #cccccc 1px solid;
+    border-right: #cccccc 1px solid;
+    border-left: #cccccc 1px solid;
+    border-bottom: #cccccc 1px solid;
+    padding: 7px 10px 7px 10px;
+    width: 320px;
+    height: 30px;
+    position: absolute;
+    display: none;
+    z-index: 600;
+}
+
+.stmtGray .stmtWrite {
+    color: #333333;
+    line-height: 15px;
+    text-decoration: none;
+    border-right: #FFFFFF 1px solid;
+    padding: 3px 1px 3px 1px;
+}
+
+.stmtGray {
+    background-color: #EEEEEE;
+}
+
+.stmtWhite {
+    background-color: #FFFFFF;
+}
+
+#stmtExportMenu {
+    display: none;
+    position: absolute;
+}

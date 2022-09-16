@@ -1,0 +1,303 @@
+.mtgInfoLeft {
+	background: url('/contentserver/jcbw/images/stroke_yellow.gif') no-repeat;
+	background-position: left 5px center;
+	padding: 0px 0px 0px 15px;
+	display: block;
+	float: left;
+}
+
+.mtgInfoRight {
+	padding: 0px 5px 0px 0px;
+	display: block;
+	float:right;
+}
+
+.mtgInfoHelp {
+	background: url(/info/include/images/icon_help.gif) no-repeat;
+	width:15px;
+	height:15px;
+	vertical-align: middle;
+	margin: 7px 5px 8px 0px;
+	display: inline-block;
+	cursor:pointer;
+}
+
+.mtgInfoRefresh {
+	background: url(/info/include/images/icon_refresh.gif) no-repeat;
+	width:15px;
+	height:15px;
+	vertical-align: middle;
+	margin: 7px 0px 8px 2px;
+	display: inline-block;
+	cursor:pointer;
+}
+
+.mtgInfoCheckboxDiv {
+	vertical-align: middle;
+	padding: 2px 1px 2px 1px;
+	display: inline-block;
+}
+
+.mtgInfoCheckbox {
+	margin: 2px 0px 0px 0px;
+	display: inline-block;
+}
+
+.mtgInfoDropdown {
+	color: #FFFFFF;
+    line-height: 15px;
+	display: inline-block;
+	padding: 0px 0px 0px 2px;
+}
+
+.mtgInfoTxt {
+	vertical-align: middle;
+	padding: 2px 5px 2px 0px;
+	display: inline-block;
+}
+
+.raceInfoTxt {
+	vertical-align: middle;
+	padding: 2px 5px 2px 0px;
+	display: inline-block;
+}
+
+.raceInfoDropdown {
+	color: #FFFFFF;
+    line-height: 15px;
+	display: inline-block;
+	padding: 0px 0px 0px 2px;
+}
+
+.raceInfoStroke {
+	background: url(/contentserver/jcbw/images/stroke_gray.gif) no-repeat;
+	width: 1px;
+	height: 10px;
+	margin: 0px 10px 0px 10px;
+	display: inline-block;
+}
+
+.raceInfoStrokeBlack {
+	background: url(/contentserver/jcbw/images/stroke_black.gif) no-repeat;
+	width: 1px;
+	height: 10px;
+	margin: 0px 10px 0px 20px;
+	display: inline-block;
+}
+
+.raceWebCastIcon {
+	background: url(/racing/info/images/webcast.gif) no-repeat;
+	width:20px;
+	height:18px;
+	vertical-align: middle;
+	margin: 2px 0px 2px 29px;
+	display: inline-block;
+	cursor:pointer;
+}
+
+.rsInvCalUnitBetInput {
+	color: #333333;
+    line-height: 15px;
+    border: 1px solid #B6B6B6;
+    height: 20px;
+    width: 65px;
+}
+
+.rsInvValClose {
+	background:url(/info/include/images/btn_close.gif) no-repeat;
+	width:15px;
+	height:15px;
+	display: inline-block;
+}
+.rsInvValOpen {
+	background:url(/info/include/images/btn_open.gif) no-repeat;
+	width:15px;
+	height:15px;
+	display: inline-block;
+}
+
+#alupFormuaBlock {
+	float:right;
+	padding-right:5px
+}
+
+[class^="raceNo"] {
+	width:17px;
+	height:17px;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0px 0px 0px 3px;
+}
+
+.racingBold {
+	font-size: 12px;
+	color: #083564;
+	line-height: 15px;
+	text-decoration: none;
+}
+
+.rOddsHL {
+	background-color: #FFF4B0;
+}
+
+.rsRaceCardMinWidth {
+	word-break: break-word;
+	word-wrap: break-word;
+	min-width: 48px;
+	max-width: 80px;
+}
+
+.cwinOddsHL {
+	background-color: #CEE3F6;
+}
+
+.combTableHeader {
+	font-size: 11px;
+	text-align: center;
+	vertical-align: middle;
+	width: 100%;
+	color: #FFFFFF;
+	background-color: #4A8CC1;
+	padding: 5px 0px 5px 0px;
+}
+
+.combTableHL {
+	background-color: #FFF4B0;
+	font-weight: bold;
+}
+
+.combTableRadio {
+	float: left;
+	padding: 2px 15px 2px 10px;
+}
+
+.tableNum1 {
+	font-size: 11px;
+	color: #333333;
+	line-height: 20px;
+	text-decoration: none;
+	padding:1px 1px 1px 3px;
+	background-color:#FFFFFF;
+	background-clip: padding-box;
+	white-space: nowrap;
+}
+
+.tableNum2 {
+	font-size: 11px;
+	color: #333333;
+	line-height: 16px;
+	text-decoration: none;
+	padding:1px 1px 1px 3px;
+	background-color:#EBEBEB;
+	background-clip: padding-box;
+	white-space: nowrap;
+}
+
+.rsInvCalResultBox {
+	display: table;
+	width: 100%
+}
+
+.rsBetCalResultCell {
+	display: table-cell;
+	width: 33%;
+	border: 1px solid #FFFFFF;
+}
+
+#rsCalTop {
+	padding-bottom: 2px;
+}
+
+.raceNoOff_1, .raceNoOffNohover_1 { background: url(/racing/info/images/num_1.gif) no-repeat; cursor:pointer; }
+.raceNoOn_1 { background: url(/racing/info/images/num_1_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_1 { background: url(/racing/info/images/num_1_deem.gif) no-repeat; }
+.raceNoOff_2, .raceNoOffNohover_2 { background: url(/racing/info/images/num_2.gif) no-repeat; cursor:pointer; }
+.raceNoOn_2 { background: url(/racing/info/images/num_2_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_2 { background: url(/racing/info/images/num_2_deem.gif) no-repeat; }
+.raceNoOff_3, .raceNoOffNohover_3 { background: url(/racing/info/images/num_3.gif) no-repeat; cursor:pointer; }
+.raceNoOn_3 { background: url(/racing/info/images/num_3_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_3 { background: url(/racing/info/images/num_3_deem.gif) no-repeat; }
+.raceNoOff_4, .raceNoOffNohover_4 { background: url(/racing/info/images/num_4.gif) no-repeat; cursor:pointer; }
+.raceNoOn_4 { background: url(/racing/info/images/num_4_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_4 { background: url(/racing/info/images/num_4_deem.gif) no-repeat; }
+.raceNoOff_5, .raceNoOffNohover_5 { background: url(/racing/info/images/num_5.gif) no-repeat; cursor:pointer; }
+.raceNoOn_5 { background: url(/racing/info/images/num_5_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_5 { background: url(/racing/info/images/num_5_deem.gif) no-repeat; }
+.raceNoOff_6, .raceNoOffNohover_6 { background: url(/racing/info/images/num_6.gif) no-repeat; cursor:pointer; }
+.raceNoOn_6 { background: url(/racing/info/images/num_6_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_6 { background: url(/racing/info/images/num_6_deem.gif) no-repeat; }
+.raceNoOff_7, .raceNoOffNohover_7 { background: url(/racing/info/images/num_7.gif) no-repeat; cursor:pointer; }
+.raceNoOn_7 { background: url(/racing/info/images/num_7_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_7 { background: url(/racing/info/images/num_7_deem.gif) no-repeat; }
+.raceNoOff_8, .raceNoOffNohover_8 { background: url(/racing/info/images/num_8.gif) no-repeat; cursor:pointer; }
+.raceNoOn_8 { background: url(/racing/info/images/num_8_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_8 { background: url(/racing/info/images/num_8_deem.gif) no-repeat; }
+.raceNoOff_9, .raceNoOffNohover_9 { background: url(/racing/info/images/num_9.gif) no-repeat; cursor:pointer; }
+.raceNoOn_9 { background: url(/racing/info/images/num_9_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_9 { background: url(/racing/info/images/num_9_deem.gif) no-repeat; }
+.raceNoOff_10, .raceNoOffNohover_10 { background: url(/racing/info/images/num_10.gif) no-repeat; cursor:pointer; }
+.raceNoOn_10 { background: url(/racing/info/images/num_10_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_10 { background: url(/racing/info/images/num_10_deem.gif) no-repeat; }
+.raceNoOff_11, .raceNoOffNohover_11 { background: url(/racing/info/images/num_11.gif) no-repeat; cursor:pointer; }
+.raceNoOn_11 { background: url(/racing/info/images/num_11_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_11 { background: url(/racing/info/images/num_11_deem.gif) no-repeat; }
+.raceNoOff_12, .raceNoOffNohover_12 { background: url(/racing/info/images/num_12.gif) no-repeat; cursor:pointer; }
+.raceNoOn_12 { background: url(/racing/info/images/num_12_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_12 { background: url(/racing/info/images/num_12_deem.gif) no-repeat; }
+.raceNoOff_13, .raceNoOffNohover_13 { background: url(/racing/info/images/num_13.gif) no-repeat; cursor:pointer; }
+.raceNoOn_13 { background: url(/racing/info/images/num_13_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_13 { background: url(/racing/info/images/num_13_deem.gif) no-repeat; }
+.raceNoOff_14, .raceNoOffNohover_14 { background: url(/racing/info/images/num_14.gif) no-repeat; cursor:pointer; }
+.raceNoOn_14 { background: url(/racing/info/images/num_14_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_14 { background: url(/racing/info/images/num_14_deem.gif) no-repeat; }
+.raceNoOff_15, .raceNoOffNohover_15 { background: url(/racing/info/images/num_15.gif) no-repeat; cursor:pointer; }
+.raceNoOn_15 { background: url(/racing/info/images/num_15_on.gif) no-repeat; cursor:pointer; }
+.raceNoDim_15 { background: url(/racing/info/images/num_15_deem.gif) no-repeat; }
+
+
+
+@media (hover: hover) {
+	.raceNoOff_1:hover { background: url(/racing/info/images/num_1_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_2:hover { background: url(/racing/info/images/num_2_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_3:hover { background: url(/racing/info/images/num_3_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_4:hover { background: url(/racing/info/images/num_4_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_5:hover { background: url(/racing/info/images/num_5_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_6:hover { background: url(/racing/info/images/num_6_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_7:hover { background: url(/racing/info/images/num_7_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_8:hover { background: url(/racing/info/images/num_8_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_9:hover { background: url(/racing/info/images/num_9_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_10:hover { background: url(/racing/info/images/num_10_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_11:hover { background: url(/racing/info/images/num_11_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_12:hover { background: url(/racing/info/images/num_12_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_13:hover { background: url(/racing/info/images/num_13_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_14:hover { background: url(/racing/info/images/num_14_on.gif) no-repeat; cursor:pointer; }
+	.raceNoOff_15:hover { background: url(/racing/info/images/num_15_on.gif) no-repeat; cursor:pointer; }
+}
+
+.foSubHeadLeft {
+	float: left;
+	display: inline-block;
+	color: #004b96;
+	line-height: 15px;
+}
+
+.foSubHeadRight {
+	float: right;
+	line-height: 15px;
+}
+
+.foPlacePoint {
+	color: #004b96;
+}
+
+.select2 option:disabled {
+    color: #DDDDDD;
+}
+
+.allupChkBox {
+	display:none;
+}
+
+.foMsg {
+	padding-left: 5px;
+}
