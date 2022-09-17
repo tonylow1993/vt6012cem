@@ -4,6 +4,7 @@ ul.breadcrumb {
   list-style: none;
   background-color: #fff;
   font-size: 12px!important;
+  margin: 0px;
 }
 
 /* Display list items side by side */

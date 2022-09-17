@@ -532,7 +532,7 @@
                                     var teamList = [];
                                     function searchResult() {
                                         tMatchID = "";
-                                        para = "";
+                                        para = {};
                                         FromDate = "";
                                         ToDate = "";
                                         TeamNo = "";
@@ -560,27 +560,37 @@
                                             return;
                                         }
                                         $('#divLoading').show();
-                                        para += "&startdate=" + FromDate + "&enddate=" + ToDate;
+                                        para.startdate = FromDate;
+                                        para.enddate = ToDate;
+                                        para.strFyear = strFyear;
+                                        para.strFmonth = strFmonth;
+                                        para.strFday = strFday;
+                                        para.strTyear = strTyear;
+                                        para.strTmonth = strTmonth;
+                                        para.strTday = strTday
+
                                         if (document.getElementById("DDL_TeamList")[0].value == document.getElementById("DDL_TeamList").value) {
                                             teamChecked = false;
-                                            TeamNo = "";
-                                            TeamName = "";
-                                            para += "&teamid=default";
+                                            para.TeamNo = "";
+                                            para.TeamName = "";
                                         } else {
-                                            TeamNo = document.getElementById("DDL_TeamList").value;
-                                            var nameAttr = (jsLang == "CH" ? "nameC" : "nameE");
-                                            TeamName = $.grep(teamList, function (_team) { return _team.id == TeamNo; })[0][nameAttr];
-                                            para += "&teamid=" + TeamNo;
+                                            const team = document.getElementById("DDL_TeamList");
+                                            TeamNo = team.value;
+                                            TeamName = team.options[team.selectedIndex].text;
+                                            para.TeamNo = TeamNo;
+                                            para.TeamName = TeamName;
                                         }
+
+                                        if (document.getElementById("DDL_CompetitionList")[0].value == document.getElementById("DDL_CompetitionList").value) {
+                                            para.CompetitionName = "";
+                                        } else {
+                                            para.CompetitionName = document.getElementById("DDL_CompetitionList").value;
+                                        }
+
                                         displaySearchResult = true;
                                         curPage = 1;
                                         displaySearchLabel();
-                                        if (pageName == "RESULT") {
-                                            renderSearchResult(para);
-                                        } else {
-                                            //render
-                                            renderSPCSearchResults(para);
-                                        }
+                                        renderSearchResult(para);
                                         $('#divLoading').hide();
                                     }
                                     // sort_by function from
@@ -4379,6 +4389,26 @@
                                                     <option value="50003431">Zwolle</option>
                                                 </select>
                                             </div>
+                                        </div>
+                                        <div class="tableRow">
+                                            <div class="tableCell">
+                                            </div>
+                                            <div class="tableCell">
+                                                Competition</div>
+                                            <div class="tableCell" style="padding :5px 0 5px 5px;">
+                                                <select id="DDL_CompetitionList">
+                                                    <option value="All Teams">All Competitions</option>
+                                                    <option value="Argentine Division 1">Argentine Division 1</option>
+                                                    <option value="Brazilian Cup">Brazilian Cup</option>
+                                                    <option value="Chilean Division 1">Chilean Division 1</option>
+                                                    <option value="Eng Championship">Eng Championship</option>
+                                                    <option value="Mexican Premier">Mexican Premier</option>
+                                                    <option value="Russian Cup">Russian Cup</option>
+                                                    <option value="UE Champions">UE Champions</option>
+                                                    <option value="UE Cup">UE Cup</option>
+                                                    <option value="US Football League">US Football League</option>
+                                                </select>
+                                            </div>
                                             <div class="tableCell" style="text-align:right">
                                                 <div class="searchButton" title="Search" onclick="searchResult()">
                                                 </div>
@@ -7510,42 +7540,50 @@
                         function fbBannerInit() {
                             setTopBannerFrame('football', 'results/results', curLang);
                         }
-                        function renderSearchResult(para, retryOnce) {
-                            window.history.pushState({ "product": curProduct, "page": curPageId, "lang": curLang, "para": para }, "", location.href);
-                            if (noOfFail < 2) {
-                                $.ajax({
-                                    url: "/football/getJSON.aspx?jsontype=search_result.aspx" + para,
-                                    type: "get",
-                                    contentType: "application/json; charset=utf-8",
-                                    //dataType: "json",
-                                    success: function (data) {
-                                        if (data != undefined && data != "") {
-                                            if (data.indexOf && data.indexOf(wafKeyword) >= 0 && !retryOnce) {
-                                                //console.log('Blocked by WAF, retry one time...');
-                                                $('#tFrame').attr('src', '/reload.aspx?a=' + (new Date().getTime()));
-                                                setTimeout(function () {
-                                                    renderSearchResult(para, true);
-                                                }, 1000);
-                                                return;
-                                            }
-                                            try {
-                                                dataCache = data;
-                                                sortSearchResults();
-                                                drawSearchResults();
-                                            } catch (ex) {
-                                                drawEmptyResult();
-                                                debugLog("renderSearchResult: " + ex);
-                                            }
-                                        } else {
-                                            drawEmptyResult();
-                                        }
-                                    },
-                                    error: function () {
-                                        noOfFail++;
+                        function renderSearchResult(para) {
+                            console.log(para)
+                            var elements = document.getElementsByClassName("couponRow");
+                            if (para.TeamNo !== "") {
+                                Array.prototype.forEach.call(elements, function(e) {
+                                    if(!e.innerHTML.includes(para.TeamName)) {
+                                        e.style.display = 'none';
                                     }
                                 });
                             } else {
-                                drawEmptyResult();
+                                Array.prototype.forEach.call(elements, function(e) {
+                                    e.style.display = 'block';
+                                });
+                            }
+
+                            if (para.CompetitionName !== "") {
+                                Array.prototype.forEach.call(elements, function(e) {
+                                    if(!e.innerHTML.includes(para.CompetitionName)) {
+                                        e.style.display = 'none';
+                                    }
+                                });
+                            } else {
+                                Array.prototype.forEach.call(elements, function(e) {
+                                    e.style.display = 'block';
+                                });
+                            }
+                            
+                            if (para.startdate !== "" && para.enddate !== "" ) {
+                                const sDate = new Date(parseInt(para.strFyear), parseInt(para.strFmonth) - 1, parseInt(para.strFday))
+                                const eDate = new Date(parseInt(para.strTyear), parseInt(para.strTmonth) - 1, parseInt(para.strTday))
+                                let date = null;
+
+                                Array.prototype.forEach.call(elements, function(e) {
+                                    const d1 = e.getElementsByClassName("matchDate")
+                                    
+                                    if (d1.length > 0) {
+                                        const d2 = d1[0].innerHTML.split("/")
+                                        date = new Date(parseInt(d2[2]), parseInt(d2[1]) - 1, parseInt(d2[0]))
+                                    }
+
+                                    if (date === null || date > eDate || date < sDate) {
+                                        e.style.display = 'none';
+                                    }
+                                });
                             }
                         }
                         function sortSearchResults() {
