@@ -37,7 +37,7 @@ var rgpUrlListC = {
 function getRGPImage(host) {
 	var buf = new StringBuffer();
 	var rgpUrlList = curLang=='en' ? rgpUrlListE : rgpUrlListC;
-	var rgpImg = curLang=='en' ? 'rgp_text_710_eng.gif' : 'rgp_text_710_chi.gif';
+	var rgpImg = curLang=='en' ? 'rgp_text_710_eng.gif' : 'rgp_text_710_eng.gif';
 	buf.append('<img src="').append(host!=null? host: '').append('/info/include/rgp/').append(rgpImg).append('" usemap="#Map" border ="0" width="710" height="103" />');
 	buf.append('<map id ="Map" name ="Map">');
 	buf.append('<area shape ="rect" coords ="640,2,708,43" href="').append(rgpUrlList['rgp'].url).append('" target="_blank" />');
