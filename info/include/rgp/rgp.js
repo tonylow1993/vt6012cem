@@ -84,8 +84,8 @@ var rgpUrlListC = {
 
 function getRGPImage(host) {
     var buf = new StringBuffer();
-    var rgpUrlList = curLang == 'en' ? rgpUrlListE : rgpUrlListC;
-    var rgpImg = curLang == 'en' ? 'rgp_text_710_eng.gif' : 'rgp_text_710_chi.gif';
+    var rgpUrlList = rgpUrlListE;
+    var rgpImg = curLang == 'en' ? 'rgp_text_710_eng.gif' : 'rgp_text_710_eng.gif';
     buf.append('<img src="').append(host != null ? host : '').append('/info/include/rgp/').append(rgpImg).append('" usemap="#Map" border ="0" width="710" height="103" />');
     buf.append('<map id ="Map" name ="Map">');
     buf.append('<area shape ="rect" coords ="640,2,708,43" href="').append(rgpUrlList['rgp'].url).append('" target="_blank" />');
@@ -94,7 +94,7 @@ function getRGPImage(host) {
 }
 
 function getRGPLinks() {
-    var rgpUrlList = curLang == 'en' ? rgpUrlListE : rgpUrlListC;
+    var rgpUrlList = rgpUrlListE;
     var buf = new StringBuffer();
     buf.append('<a href="').append(rgpUrlList['contactUs'].url).append('" target="_blank" class="footer">').append(rgpUrlList['contactUs'].name).append('</a> | ');
     buf.append('<a href="').append(rgpUrlList['siteMap'].url).append('" target="_blank" class="footer">').append(rgpUrlList['siteMap'].name).append('</a> | ');
@@ -107,7 +107,7 @@ function getRGPLinks() {
 }
 
 function getRGPCopyright() {
-    var rgpUrlList = curLang == 'en' ? rgpUrlListE : rgpUrlListC;
+    var rgpUrlList = rgpUrlListE;
     var rgpCopyRight = curLang == 'en' ? rgpCopyRightE : rgpCopyRightC;
     var buf = new StringBuffer();
     buf.append('<a href="').append(rgpUrlList['copyright'].url).append('" target="_blank" class="footer">').append(rgpUrlList['copyright'].name);

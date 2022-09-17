@@ -1,99 +1,101 @@
-/* Style the list */
-ul.breadcrumb {
-  padding: 10px 10px;
-  list-style: none;
-  background-color: #fff;
-  font-size: 12px!important;
-  margin: 0px;
-}
 
-/* Display list items side by side */
-ul.breadcrumb li {
-  display: inline;
-}
+@media only screen and (min-device-width: 480px)  {
 
-/* Add a slash symbol (/) before/behind each list item */
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: #386220;
-  content: "/\00a0";
-}
+  /* Style the list */
+  ul.breadcrumb {
+    padding: 10px 10px;
+    list-style: none;
+    background-color: #fff;
+    font-size: 12px!important;
+    margin: 0px;
+  }
 
-/* Add a color to all links inside the list */
-ul.breadcrumb li a {
-  color: #386220;
-  text-decoration: none;
-}
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+  }
 
-/* Add a color on mouse-over */
-ul.breadcrumb li a:hover {
-  color: #386220;
-  text-decoration: underline;
-}
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: #386220;
+    content: "/\00a0";
+  }
 
-.secMenu {
-  margin: auto!important;
-}
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #386220;
+    text-decoration: none;
+  }
 
-.fMenuTABLE {
-	margin: auto!important;
-}
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #386220;
+    text-decoration: underline;
+  }
+
+  .secMenu {
+    margin: auto!important;
+  }
+
+  .fMenuTABLE {
+    margin: auto!important;
+  }
 
 
-div#homeSNDiv div {
-  margin: auto!important;
-}
+  div#homeSNDiv div {
+    margin: auto!important;
+  }
 
-#container{
-  margin: auto!important;
-}
+  #container{
+    margin: auto!important;
+  }
 
-div#rgpDiv{
-  margin: auto!important;
-}
+  div#rgpDiv{
+    margin: auto!important;
+  }
 
-.pMenuTABLE {
-  margin: auto!important;
-}
+  .pMenuTABLE {
+    margin: auto!important;
+  }
 
-#oddsMenu {
-  padding: 0px!important;
-}
+  #oddsMenu {
+    padding: 0px!important;
+  }
 
-#topNav {
-  left: 1110px!important;
-}
+  #topNav {
+    left: 1110px!important;
+  }
 
-a.topMenuLang {
-  background-size: 14px 14px;
-  background-image: url(./info/include/images/lang.png);
-  background-repeat: no-repeat;
-  padding-left: 16px;
-  font-size: 13px;
-  font-weight: 700;
-}
+  a.topMenuLang {
+    background-size: 14px 14px;
+    background-image: url(./info/include/images/lang.png);
+    background-repeat: no-repeat;
+    padding-left: 16px;
+    font-size: 13px;
+    font-weight: 700;
+  }
 
-@media screen and (min-width: 1000px) {
-	#betslipDiv {
-		position: absolute;
-		top: 39px;
-    left:auto!important;
-		right: 660px!important;
-		z-index: 100;
-		width: 221px;
-	}
+  @media screen and (min-width: 1000px) {
+    #betslipDiv {
+      position: absolute;
+      top: 39px;
+      left:auto!important;
+      right: 660px!important;
+      z-index: 100;
+      width: 221px;
+    }
 
-	#divLogout {
-		left: 95px;
-	}
-}
+    #divLogout {
+      left: 95px;
+    }
+  }
 
-@media screen and (max-width: 999px) {
-	#betslipDiv {
+  #betslipDiv {
 		position: absolute;
 		top: 39px;
 		left: 776px;
-		//right: 0px;
+		right: 0px;
 		z-index: 100;
 		width: 221px;
 	}
@@ -101,4 +103,170 @@ a.topMenuLang {
 	#divLogout {
 		left: 0px;
 	}
+}
+
+@media only screen and (max-device-width: 480px)  {
+  body {
+    position: fixed;
+  }
+
+  #betslipDiv {
+		display: none;
+	}
+
+  .fMenuTABLE {
+		display: none!important;
+  }
+
+  .secMenu {
+    width: 100%!important;
+    padding: 0px!important;
+    margin: 0px!important;
+  }
+
+  #homeSNDiv > div {
+    width: 100%!important;
+    padding: 0px!important;
+    margin: 0px!important;
+    height: 160px!important;
+  }
+
+  body > div > #container {
+    width: 100%!important;
+    padding: 0px!important;
+    margin: 0px!important;
+  }
+
+  body > div > #container > div {
+    width: 100%!important;
+  }
+
+  #rgpDiv {
+    width: 100%!important;
+    padding: 0px!important;
+    margin: 0px!important;
+  }
+
+  #secMenuHR, #secMenuFB, #secMenuM6, #secMenu3in1 {
+    width: 160px!important;
+    height: 120px!important;
+    background-size: 160px 120px;
+  }
+
+  #homeSNDiv div {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .block_main {
+    width: 100%!important;
+  }
+
+  body > div > #container div {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  body > div > #container a {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .block_main .block_header {
+    height: 120px;
+  }
+
+  .block_main a > img {
+    width: 99%;
+  }
+
+  #racingLandingTab {
+    width: 100%!important;
+  }
+
+  #racingLandingTab > div {
+    width: 25%!important;
+  }
+
+  #footballLandingTab {
+    width: 100%!important;
+  }
+
+  #footballLandingTab > div {
+    width: 25%!important;
+  }
+
+  #marksixLandingTab {
+    width: 100%!important;
+  }
+
+  #marksixLandingTab > div {
+    width: 25%!important;
+  }
+
+  .block_home_info div {
+    height: auto!important;
+  }
+
+  .block_sytle {
+    height: auto!important;
+  }
+
+  .landingMenuTABLE {
+    width: 100%!important;
+  }
+
+  .landingMenuTR > .landingMenuTD2 {
+  }
+
+  .ttRanTable, .ttRanMsg, .racingGenInfoTable, .racingPoolInfoTable, .m6RanTable {
+    width: 100%!important;
+  }
+
+  .racingGenInfoTD1, .racingGenInfoTD2 {
+    width: 50%!important;
+  }
+
+  .m6LastDrawBodyColSpan img {
+    height: 75px;
+    width: 75px;
+  }
+
+  .m6RanBody img {
+    height: 75px;
+    width: 75px;
+  }
+
+  #rgpImage img {
+    width: 100%;
+    height: auto;
+  }
+
+  a.footer {
+    font-size: 20px;
+  }
+
+  .secMenuLine {
+    height: 10px;
+    margin-top: -5px;
+  }
+
+  .secTable{
+    background-color: #003b7f;
+  }
+
+  .rhead {
+    width: 100%!important;
+  }
+
+  .rhead > div {
+    width: 50%!important;
+    float: left!important;
+  }
+
+  .addBet, .rangenRetry {
+    width: 150px!important;
+    height: 70px!important;
+    background-size: 150px 50px!important;
+  }
 }
