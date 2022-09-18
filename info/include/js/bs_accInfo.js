@@ -197,14 +197,14 @@ function OnClickLogin() {
     // check empty web id / password
     var acc = $('#account').val();
     if (acc == '' || acc == GetText('fld_account_no')) {
-        ShowAccInfoError(GetError('421'));
+        alert(GetError('421'));
         setBetslipState(STATE_NORMAL);
         return;
     }
 
     var pwd = $('#password').val();
     if (pwd == '' || pwd.length < 4) {
-        ShowAccInfoError(GetError('421'));
+        alert(GetError('421'));
         setBetslipState(STATE_NORMAL);
         return;
     }
@@ -562,7 +562,7 @@ function OnClickNext() {
     // check empty web id / password
     var acc = $('account').value;
     if (acc == '' || acc == GetText('fld_account_no')) {
-        ShowAccInfoError(GetError('421'));
+        alert(GetError('421'));
         $('pic_nextSSO').src = GetImageURL('pic_next');
         EnableAccInfo(true);
         EnableAddBetline(true);
