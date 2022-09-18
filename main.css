@@ -123,9 +123,17 @@
       position: absolute;
       top: 39px;
       left:auto!important;
-      right: 660px!important;
+      right: 560px!important;
       z-index: 100;
       width: 221px;
+    }
+
+    #betslipDiv {
+      width: 320px!important;
+    }
+
+    .accInfoTable, #divSlip, .accInfoTable2, .accInfoCellInput {
+      width: 100%!important;
     }
 
     #divLogout {
