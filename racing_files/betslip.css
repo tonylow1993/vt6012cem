@@ -423,14 +423,14 @@
 	background-color: #F8F8F8;
 	border-bottom: 1px solid #CCCCCC;
 	display: table;
-	padding: 2px 2px 2px 2px;
+	padding: 3px;
 }
 
 .slipBetBg1 {
 	background-color: #DFDFDF;
 	border-bottom: 1px solid #CCCCCC;
 	display: table;
-	padding: 2px 2px 2px 2px;
+	padding: 3px;
 }
 
 .slipBetBg0:hover,
