@@ -1,5 +1,47 @@
+.titleWhite {
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.redTitle {
+  padding: 0px 5px;
+  font-size: 11px;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  height: 30px;
+  background-color: rgb(204, 44, 44);
+}
+
+.bettingGuideTitle {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+#footballBettingGuide ul, #racingBettingGuide ul, #marksixBettingGuide ul {
+  list-style-image: url(/football/info/images/arrow.gif);
+  margin: 0px;
+  padding: 3px 0px 0px 13px;
+}
+
+#footballBettingGuide ul li, #racingBettingGuide ul li, #marksixBettingGuide ul li {
+  padding: 3px 0px 0px 0px;
+}
 
 @media only screen and (min-device-width: 480px)  {
+  .footballBtn {
+    display: none!important;
+  }
+
+  #racingLandingTab div:nth-child(4) {
+    display: none!important;
+  }
+
+  #marksixLandingTab div:nth-child(3) {
+    display: none!important;
+  }
 
   /* Style the list */
   ul.breadcrumb {
@@ -106,6 +148,10 @@
 }
 
 @media only screen and (max-device-width: 480px)  {
+  .bettingGuide {
+		display: none;
+  }
+
   body {
     position: fixed;
   }
@@ -154,8 +200,8 @@
   }
 
   #homeSNDiv div {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 35px;
+    line-height: 45px;
   }
 
   .block_main {
@@ -163,13 +209,13 @@
   }
 
   body > div > #container div {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 35px;
+    line-height: 45px;
   }
 
   body > div > #container a {
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 35px;
+    line-height: 45px;
   }
 
   .block_main .block_header {

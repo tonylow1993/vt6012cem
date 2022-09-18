@@ -385,8 +385,43 @@ else window.addEventListener('message', receiveMessage, false);
 </div>
 
     <div id="thirdMenu" class="pMenuTABLE"></div>
-    <div id="oddsMenu"></div>
     <div id="container">
+		<div class="bettingGuide" style="padding:5px;">
+			<div>
+				<div class="redTitle">
+					<div class="titleWhite" style="padding-left:6px;line-height: 30px;">Betting Guide</div>
+				</div>
+			</div>
+			<div>
+				<div style="border-left:1px solid #DE5451; border-right:1px solid #DE5451; border-bottom:3px solid #DE5451; padding: 5px 6px 5px 8px;display: flex;">
+					<div id="racingBettingGuide" style="width: 33%;">
+						<div class="bettingGuideTitle"> Racing </div>
+                        <ul>
+                            <li><a href="javascript:;" onclick="window.open('//special.hkjc.com/root2/racing/info/en/betting/guide_qualifications_pari.asp','_blank');" class="racingLink">Pari-Mutuel Pools</a></li>
+                            <li><a href="javascript:;" onclick="window.open('//special.hkjc.com/root2/racing/info/en/betting/guide_qualifications_fixed.asp','_blank');" class="racingLink">Fixed Odds Bet Types</a></li>
+                            <li><a href="javascript:;" onclick="window.open('//special.hkjc.com/root2/racing/info/en/betting/guide_rebate.asp','_blank');" class="racingLink">Rebate</a></li>
+                        </ul>
+                        <div style="text-align:right;margin-right: 30px;"><a href="javascript:;" onclick="window.open('//special.hkjc.com/racing/info/en/betting/guide.asp','_blank');" class="racingLink">More</a></div>
+                    </div>
+					<div id="footballBettingGuide" style="width: 33%;">
+						<div class="bettingGuideTitle"> Football </div>
+                        <ul>
+                            <li><a href="//www.hkjc.com/english/betting/template_betting_rule_files/pdf/fb_rules_ch3.pdf" target="_blank" class="footballLink">Fixed Odds Football Bets</a></li>
+                            <li><a href="//www.hkjc.com/english/betting/template_betting_rule_files/pdf/fb_rules_ch4.pdf" target="_blank" class="footballLink">Pari-Mutuel Football Bets</a></li>
+                            <li><a href="javascript:;" onclick="window.open('//is.hkjc.com/football/info/EN/betting/bettypes_inplay.asp','_blank');" class="footballLink">In Play Betting</a></li>
+                        </ul>
+                    </div>
+					<div id="marksixBettingGuide" style="width: 33%;">
+						<div class="bettingGuideTitle"> Mark Six </div>
+                        <ul>
+                            <li><a href="javascript:;" onclick="var para= {'file': 'prize_entitlement.asp'}; switchTo('marksix', 'userinfo', curLang, para);" class="marksixLink">Prize Qualification</a>: 1st Prize Pick all the 6 Drawn Numbers</li>
+                            <li><a href="javascript:;" onclick="var para= {'file': 'multiple_banker.asp'}; switchTo('marksix', 'userinfo', curLang, para);" class="marksixLink">Types of Entry</a>: Mark Six has several types of entry available for selection</li>
+                            <li><a href="javascript:;" onclick="var para= {'file': 'chance.asp'}; switchTo('marksix', 'userinfo', curLang, para);" class="marksixLink">Multiple / Banker Entry Chance Table</a></li>
+                        </ul>
+                    </div>
+				</div>
+			</div>
+		</div>
         <script type="text/javascript">
             var dPageDone = $.Deferred();
             $.when(
